@@ -2,8 +2,9 @@ import Home from './pages/Home/Home';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
-import { BrowserRouter as Router, Routes, Route, Link} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import Contact from './pages/Contact/Contact';
 
 function App() {
   return (
@@ -11,7 +12,7 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/header' element={<Header/>}></Route>
+        <Route path='/contact-us' element={<Contact/>}></Route>
         <Route path='/footer' element={<Footer/>}></Route>
       </Routes>
 

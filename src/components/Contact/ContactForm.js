@@ -12,7 +12,7 @@ function ContactForm () {
                             <div class="contact-us-left-inner">
                                 <div class="contact-form-left-title">
                                     <div class="pbmit-heading-subheading mb-0">
-                                        <h2 class="pbmit-title">Feel Free to Our Contact & Hire us for Your Finance !!</h2>
+                                        <h2 class="pbmit-title">Igogloal Customer Care is only a call away</h2>
                                     </div>
                                 </div>
                                 <div class="pbmit-social-link">
@@ -40,7 +40,10 @@ function ContactForm () {
                     </div>
                     <div class="col-md-8 contact-us-col2">
                         <div class="contact-form-main">
-                            <p>Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                            <p>
+                                With a focus on your individual needs, our leadership has set out to create a company that stands out, whether you're a customer or a distributor. 
+                                This commitment to customization drives everything we do, shaping our present and future endeavors. <br></br> Kindly reach out if you would like to know more. 🤗
+                            </p>
                             <div class="contact-form">
                                 <form method="post" class="contact-form" id="contact-form" action="send.php">
                                     <h2>Get in Touch with us!</h2>
@@ -65,7 +68,7 @@ function ContactForm () {
                                                 <i class="form-btn-loader fa fa-circle-o-notch fa-spin fa-fw margin-bottom d-none"></i>
                                                 <span class="pbmit-button-content-wrapper">
                                                     <span class="pbmit-button-icon pbmit-align-icon-right">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="pbmit-svg-arrow" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xml:space="preserve">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" class="pbmit-svg-arrow" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
                                                             <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
                                                             <line x1="1.2" y1="1" x2="18" y2="1"></line>
                                                             <line x1="18" y1="17.8" x2="18" y2="1"></line>

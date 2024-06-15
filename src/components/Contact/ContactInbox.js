@@ -16,7 +16,7 @@ function ContactInbox () {
                                 <h2 class="pbmit-element-title">
                                     Mail us 24/7
                                 </h2>
-                                <div class="pbmit-heading-desc">pbminfouser@infotech.com <br></br> noreply@pbminfotech.com</div>
+                                <div class="pbmit-heading-desc">myigoglobal.com <br></br> info@igoglobal.io</div>
                             </div>
                         </div>
                     </div>
@@ -33,7 +33,7 @@ function ContactInbox () {
                                 <h2 class="pbmit-element-title">
                                     Our Location
                                 </h2>
-                                <div class="pbmit-heading-desc">8502 Preston Rd. Inglewood, Maine 9838086, Hoofddorp Noord- 2132 </div>
+                                <div class="pbmit-heading-desc">1, Morenikeji Street, Off Ladipo Kasimu Street, Allen Avenue - Ikeja Lagos State, Nigeria </div>
                             </div>
                         </div>
                     </div>
@@ -50,7 +50,7 @@ function ContactInbox () {
                                 <h2 class="pbmit-element-title">
                                     Call us 24/7
                                 </h2>
-                                <div class="pbmit-heading-desc">Phone: +001 236-895-4732 <br></br> Mobile: +9123  895-4732-236</div>
+                                <div class="pbmit-heading-desc">Phone: +234 903-979-9817 <br></br> Mobile: +234 903-979-9817</div>
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ function ContactInbox () {
                                 <h2 class="pbmit-element-title">
                                     Working Days
                                 </h2>
-                                <div class="pbmit-heading-desc">Mon to Fri - 09:00am To 06:00pm <br></br> Saturday to Sunday - Closed</div>
+                                <div class="pbmit-heading-desc">Mon to Fri - 08:00am To 06:00pm <br></br> Saturday to Sunday - Closed</div>
                             </div>
                         </div>
                     </div>

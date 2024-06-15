@@ -6,7 +6,7 @@ function ContactTitle () {
                     <h1 class="pbmit-tbar-title">Contact Us</h1>
                     <div class="pbmit-breadcrumb">
                         <div class="pbmit-breadcrumb-inner">
-                            <span><a title="" href="#" class="home"><span>Capigo</span></a></span>
+                            <span><a title="" href="#" class="home"><span>Igoglobal</span></a></span>
                             <span class="sep">
                                 <i class="pbmit-base-icon-angle-right"></i>
                             </span>
