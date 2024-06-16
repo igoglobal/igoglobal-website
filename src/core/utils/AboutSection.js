@@ -1,4 +1,4 @@
-function Inbox () {
+function AboutSection () {
     return (
         <section class="pbmit-multi-icon-box-hover-effect">
         <div class="container-fluid p-0">
@@ -9,8 +9,10 @@ function Inbox () {
                         <div class="pbmit-ihbox-style-1">
                             <div class="pbmit-ihbox-contents">
                                 <h4 class="pbmit-element-subtitle"> What We Offer </h4>
-                                <h2 class="pbmit-element-title"> Marketing & <br></br> Advertising </h2>
-                                <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</div>
+                                <h2 class="pbmit-element-title"> Health & <br></br> Wellness </h2>
+                                <div class="pbmit-heading-desc">
+                                    Harnessing the power of traditional African herbal medicine, we offer a diverse range of wellness products to address contemporary health challenges.
+                                </div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="#">
                                         <span>
@@ -54,9 +56,11 @@ function Inbox () {
                     <article class="pbmit-miconheading-style-1 swiper-slide">
                         <div class="pbmit-ihbox-style-1">
                             <div class="pbmit-ihbox-contents">
-                                <h4 class="pbmit-element-subtitle">What We Do</h4>
-                                <h2 class="pbmit-element-title"> Research & <br></br> Strategy </h2>
-                                <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</div>
+                                <h4 class="pbmit-element-subtitle">What We Offer</h4>
+                                <h2 class="pbmit-element-title"> Individual & Community <br></br> Leads </h2>
+                                <div class="pbmit-heading-desc">
+                                    Meticulously designed to cater to various needs and challenges faced by individuals and communitie by providing a holistic approach to improving lives across the continent and beyond
+                                </div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="#">
                                         <span>
@@ -77,9 +81,11 @@ function Inbox () {
                     <article class="pbmit-miconheading-style-1 swiper-slide">
                         <div class="pbmit-ihbox-style-1">
                             <div class="pbmit-ihbox-contents">
-                                <h4 class="pbmit-element-subtitle">We Offer For You</h4>
-                                <h2 class="pbmit-element-title"> Marketing <br></br> Automation </h2>
-                                <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</div>
+                                <h4 class="pbmit-element-subtitle">Benefits with us</h4>
+                                <h2 class="pbmit-element-title"> Revolutionary Reward <br></br> Plan </h2>
+                                <div class="pbmit-heading-desc">
+                                    At the core of IGOGLOBAL INTERNATIONAL INC. lies our grassroots business model, aimed at empowering individuals and communities by transforming lives and creating a ripple effect of positive change globally
+                                </div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="#">
                                         <span>
@@ -103,4 +109,4 @@ function Inbox () {
     )
 }
 
-export default Inbox;
+export default AboutSection;

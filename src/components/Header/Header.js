@@ -5,12 +5,13 @@ import Nav from './Nav';
 
 function Header () {
     const location = useLocation();
-    const onlyNav = location.pathname !== "/contact-us";
+    const isNotHomePage = location.pathname !== "/contact-us" && location.pathname !== "/services";
+    console.log(isNotHomePage)
     
     return (
         <header class="site-header header-style-1">
             <Nav></Nav>
-            {onlyNav && <Slider></Slider>}
+            {isNotHomePage && <Slider></Slider>}
         </header>
    
     )

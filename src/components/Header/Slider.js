@@ -43,7 +43,7 @@ function Slider () {
                     {/* <!-- Slide2 --> */}
                     <div class="swiper-slide">
                         <div class="pbmit-slider-item">
-                            <div class="pbmit-slider-bg" style={{backgroundImage: "url(assets/img/slider/iroko.png)"}}></div>   
+                            <div class="pbmit-slider-bg" style={{backgroundImage: "url(assets/img/slider/slider-2.avif)"}}></div>   
                             <div class="container">
                                 <div class="row">
                                     <div class="col-md-7">

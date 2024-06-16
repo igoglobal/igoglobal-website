@@ -1,7 +1,6 @@
 function SearchBox () {
     return (
         <>
-            {/* <!-- Search Box --> */}
             <div class="pbmit-search-overlay">
                 <div class="pbmit-icon-close">
                     <svg class="qodef-svg--close qodef-m" xmlns="http://www.w3.org/2000/svg" width="28.163" height="28.163" viewBox="0 0 26.163 26.163">
@@ -16,15 +15,12 @@ function SearchBox () {
                     </form>
                 </div>
             </div>
-            {/* <!-- Search Box Ends--> */}
 
-            {/* <!-- Scroll To Top --> */}
             <div class="pbmit-progress-wrap">
                 <svg class="pbmit-progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
                     <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"></path>
                 </svg>	
             </div>
-            {/* <!-- Scroll To Top End --> */}        
         </>
     )
 }

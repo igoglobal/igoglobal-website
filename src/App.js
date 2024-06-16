@@ -1,19 +1,22 @@
-import Home from './pages/Home/Home';
+import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { Helmet } from 'react-helmet';
+
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
-import { BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import { Helmet } from 'react-helmet';
+import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
+import Services from './pages/Services/Services';
 
 function App() {
   return (
+    // Masonry view >> grid wide => gallery page
     <Router>
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
         <Route path='/contact-us' element={<Contact/>}></Route>
-        <Route path='/footer' element={<Footer/>}></Route>
+        <Route path='/services' element={<Services/>}></Route>
       </Routes>
 
       <Footer/>
@@ -21,7 +24,7 @@ function App() {
       <Helmet>
         <meta charset="utf-8"/>
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-        <title>Igoglobal Inc – Health & Wellness</title>
+        <title>Igoglobal Inc</title>
         <meta name="robots" content="noindex, follow"/>
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
