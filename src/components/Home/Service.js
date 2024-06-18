@@ -6,7 +6,7 @@ function Service () {
                 <div class="col-md-8 col-xl-6">
                     <div class="pbmit-heading-subheading pbmit-text-color-white animation-style2">
                         <h4 class="pbmit-subtitle">Our Service</h4>
-                        <h2 class="pbmit-title">We offer great number of finance services</h2>
+                        <h2 class="pbmit-title">We offer a great number of services</h2>
                     </div>
                 </div>
                 <div class="col-md-4 col-xl-6">
@@ -22,7 +22,7 @@ function Service () {
                                 <div class="pbminfotech-service-content">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-01.jpg" class="img-fluid" alt=""></img>
+                                            <img src="/assets/img/service/happy.avif" class="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
@@ -30,10 +30,10 @@ function Service () {
                                             <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
                                         </div>
                                         <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Advisory</a>
+                                            <a href="services.html" rel="tag">Health</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Qualify leads</a>
+                                            <a href="service-detail.html">Comprehensive health support for your well-being.</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -45,7 +45,7 @@ function Service () {
                                 <div class="pbminfotech-service-content">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-02.jpg" class="img-fluid" alt=""></img>
+                                            <img src="/assets/img/service/wellness.avif" class="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
@@ -53,10 +53,10 @@ function Service () {
                                             <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
                                         </div>
                                         <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Consulting</a>
+                                            <a href="services.html" rel="tag">Wellness</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Business Planning</a>
+                                            <a href="service-detail.html">Balanced and healthy lifestyle programs</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -68,7 +68,7 @@ function Service () {
                                 <div class="pbminfotech-service-content">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-03.jpg" class="img-fluid" alt=""></img>
+                                            <img src="/assets/img/service/home.avif" class="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
@@ -76,10 +76,10 @@ function Service () {
                                             <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
                                         </div>
                                         <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Inventory</a>
+                                            <a href="services.html" rel="tag">Real Estate</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Market Research</a>
+                                            <a href="service-detail.html">Real estate solutions for buying, selling, and investing</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -91,7 +91,7 @@ function Service () {
                                 <div class="pbminfotech-service-content">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-04.jpg" class="img-fluid" alt=""></img>
+                                            <img src="/assets/img/service/education.avif" class="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
@@ -99,10 +99,10 @@ function Service () {
                                             <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
                                         </div>
                                         <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Management</a>
+                                            <a href="services.html" rel="tag">Education</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Financial Management</a>
+                                            <a href="service-detail.html">Educational programs and resources for learning and development</a>
                                         </h3>
                                     </div>
                                 </div>
@@ -114,7 +114,7 @@ function Service () {
                                 <div class="pbminfotech-service-content">
                                     <div class="pbmit-featured-img-wrapper">
                                         <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-05.jpg" class="img-fluid" alt=""></img>
+                                            <img src="/assets/img/service/technology.avif" class="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div class="pbminfotech-box-content">
@@ -122,102 +122,10 @@ function Service () {
                                             <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
                                         </div>
                                         <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Marketing</a>
+                                            <a href="#" rel="tag">Technology</a>
                                         </div>
                                         <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Finance Instruments</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        {/* <!-- Slide6 --> */}
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-06.jpg" class="img-fluid" alt=""></img>
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Strtegy</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Expert Consultation</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        {/* <!-- Slide7 --> */}
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-07.jpg" class="img-fluid" alt=""></img>
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Consulting</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Qualify Leads</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        {/* <!-- Slide8 --> */}
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-08.jpg" class="img-fluid" alt=""></img>
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Management</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Tax/Audit Consulting</a>
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
-                        </article>
-                        {/* <!-- Slide9 --> */}
-                        <article class="pbmit-service-style-1 swiper-slide">
-                            <div class="pbminfotech-post-item">
-                                <div class="pbminfotech-service-content">
-                                    <div class="pbmit-featured-img-wrapper">
-                                        <div class="pbmit-featured-wrapper">
-                                            <img src="images/homepage-01/service/service-09.jpg" class="img-fluid" alt=""></img>
-                                        </div>
-                                    </div>
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbmit-service-icon-wrapper">
-                                            <i class="pbmit-capigo-icon pbmit-capigo-icon-global"></i>			
-                                        </div>
-                                        <div class="pbmit-serv-cat">
-                                            <a href="services.html" rel="tag">Strtegy</a>
-                                        </div>
-                                        <h3 class="pbmit-service-title">
-                                            <a href="service-detail.html">Technology Growth</a>
+                                            <a href="#">Innovative tech services and solutions for the digital age.</a>
                                         </h3>
                                     </div>
                                 </div>

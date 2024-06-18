@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import Services from './pages/Services/Services';
+import Product from './pages/Product/Product';
 
 function App() {
   return (
@@ -15,8 +16,10 @@ function App() {
       <Header/>
       <Routes>
         <Route path='/' element={<Home/>}></Route>
-        <Route path='/contact-us' element={<Contact/>}></Route>
         <Route path='/services' element={<Services/>}></Route>
+        <Route path='/iroko' element={<Product/>}></Route>
+        <Route path='/pure-virgin' element={<Product/>}></Route>
+        <Route path='/contact-us' element={<Contact/>}></Route>
       </Routes>
 
       <Footer/>
@@ -24,7 +27,7 @@ function App() {
       <Helmet>
         <meta charset="utf-8"/>
         <meta http-equiv="x-ua-compatible" content="ie=edge"/>
-        <title>Igoglobal Inc</title>
+        <title>igoglobal.io</title>
         <meta name="robots" content="noindex, follow"/>
         <meta name="description" content=""/>
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>

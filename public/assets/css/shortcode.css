@@ -2982,10 +2982,10 @@
 	font-size: 16px;
 	padding: 100px 0 40px 0;
 	background-color: #011712;
-    background-image: url(../images/bg/footer-bg-img.png);
+    /* background-image: url(../img/igoglobal.png); */
     background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: auto;
+    background-position: bottom left;
+    background-size: 30rem;
     background-attachment: scroll;
 }
 .site-footer:before{

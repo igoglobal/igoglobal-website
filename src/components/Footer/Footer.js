@@ -11,8 +11,8 @@ function Footer () {
             <div class="pbmit-footer-big-area-wrapper">
                 <div class="container">
                     <div class="row">
-                        <FooterTitle></FooterTitle>
-                        <FooterSearch></FooterSearch>
+                        <FooterTitle/>
+                        <FooterSearch/>
                     </div>
                 </div>
             </div>
@@ -21,15 +21,22 @@ function Footer () {
                     <div class="pbmit-footer-widget-area">
                         <div class="container">
                             <div class="row g-2">
-                                <FooterAddress></FooterAddress>
-                                <FooterContact></FooterContact>
-                                <Social></Social>
+                                <FooterAddress/>
+                                <FooterContact/>
+                                <div class="col-md-4">
+                                    <div class="widget">
+                                        <h2 class="widget-title">Our Social</h2>
+                                        <div class="textwidget">
+                                            <Social/>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="pbmit-footer-text-area">
                         <div class="container">
-                            <TermsPolicy></TermsPolicy>
+                            <TermsPolicy/>
                         </div>
                     </div>
                 </div>

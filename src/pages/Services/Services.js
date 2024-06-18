@@ -1,13 +1,17 @@
 import ServicesBody from "../../components/Services/ServicesBody";
 import ServicesFaq from "../../components/Services/ServicesFaq";
 import ServicesSidebar from "../../components/Services/ServicesSidebar";
-import ServicesTitle from "../../components/Services/ServicesTitle";
+
+import Title from "../../core/utils/Title";
 
 
 function Services () {
     return (
         <>
-            <ServicesTitle/>
+            <Title
+                title="Quality Services"
+                sectionName="Services"
+            />
             <div class="page-content">
                 <section class="service_details">
                     <div class="container">

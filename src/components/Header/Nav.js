@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 function Nav () {
     return (
         <div class="pbmit-header-overlay">
-            <div class="pbmit-pre-header-wrapper pbmit-text-color-white">
+            {/* <div class="pbmit-pre-header-wrapper pbmit-text-color-white">
                 <div class="container-fluid">
                     <div class="d-flex justify-content-between">
                         <div class="pbmit-pre-header-left">
@@ -19,7 +19,7 @@ function Nav () {
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> */}
             <div class="pbmit-main-header-area">
                 <div class="container-fluid">
                     <div class="pbmit-header-content d-flex align-items-center justify-content-between">
@@ -47,100 +47,26 @@ function Nav () {
                                             <i class="pbmit-base-icon-close-circular-button-symbol"></i>
                                         </span>
                                         <ul class="navigation clearfix">
-                                            <li class="dropdown active">
-                                                <Link to='/'> Home</Link>
-                                                <ul>
-                                                    <li class="active">
-                                                        <Link to='/'> Homepage</Link>
-                                                    </li>
-                                                    <li><a href="homepage-2.html">Other Home</a></li>
-                                                </ul>
-                                            </li>
+                                            <li class="active"> <Link to='/'> Home</Link> </li>
                                             <li class="dropdown">
                                                 <a href="#">Pages</a>
                                                 <ul>
                                                     <li><a href="about-us.html">About Us</a></li>
-                                                    {/* <li><a href="our-history.html">Our History</a></li> */}
-                                                    <li><a href="our-plans.html">Our Plans</a></li>
-                                                    <li>
-                                                        <Link to='/services'> Services</Link>
-                                                    </li>
-                                                    <li><a href="our-team-member.html">Our Team Member</a></li>
-                                                    <li><a href="team-member-detail.html">Team Member Detail</a></li>
+                                                    <li> <Link to='/services'> Services</Link> </li>
+                                                    <li><a href="#">Blogs</a></li>
+                                                    <li><a href="#">Our Team Member</a></li>
+                                                    <li><a href="#">Team Member Detail</a></li>
                                                 </ul>
                                             </li>
+                                            <li> <Link to='/services' > Services </Link> </li>
                                             <li class="dropdown">
-                                                <a href="services.html">Services</a>
+                                                <a href="#">Products</a>
                                                 <ul>
-                                                    <li><a href="service-detail.html">Service Detail</a></li>
+                                                    <li> <Link to='/iroko'>Iroko Drink</Link> </li>
+                                                    <li> <Link to="/pure-virgin">Pure Virgin</Link> </li>
                                                 </ul>
                                             </li>
-                                            {/* <li class="dropdown">
-                                                <a href="#">Project</a>
-                                                <ul>
-                                                    <li class="dropdown">
-                                                        <a href="#">Masonry View</a>
-                                                        <ul>
-                                                            <li><a href="masonry-grid-col-2.html">Grid Col-2</a></li>
-                                                            <li><a href="masonry-grid-col-3.html">Grid Col-3</a></li>
-                                                            <li><a href="masonry-grid-col-4.html">Grid Col-4</a></li>
-                                                            <li><a href="masonry-grid-wide.html">Grid Wide</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown">
-                                                        <a href="#">Grid View</a>
-                                                        <ul>
-                                                            <li><a href="portfolio-grid-col-2.html">Grid Col-2</a></li>
-                                                            <li><a href="portfolio-grid-col-3.html">Grid Col-3</a></li>
-                                                            <li><a href="portfolio-grid-col-4.html">Grid Col-4</a></li>
-                                                            <li><a href="portfolio-grid-col-wide.html">Grid Col Wide</a></li>
-                                                            <li><a href="portfolio-grid-no-gap.html">Grid No Gap</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown">
-                                                        <a href="#">Sortable View</a>
-                                                        <ul>
-                                                            <li><a href="sortable-grid-col-2.html">Grid Col-2</a></li>
-                                                            <li><a href="sortable-grid-col-3.html">Grid Col-3</a></li>
-                                                            <li><a href="sortable-grid-col-4.html">Grid Col-4</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown">
-                                                        <a href="#">Single Detail Style</a>
-                                                        <ul>
-                                                            <li><a href="single-detail-style-1.html">Single Detail Style 1</a></li>
-                                                            <li><a href="single-detail-style-2.html">Single Detail Style 2</a></li>
-                                                        </ul>
-                                                    </li>
-                                                </ul>
-                                            </li> */}
-                                            <li class="dropdown">
-                                                <a href="#">Blog</a>
-                                                <ul>
-                                                    <li class="dropdown">
-                                                        <a href="#">Masonry Grid</a>
-                                                        <ul>
-                                                            <li><a href="blog-masonry-col-2.html">Masonry Col-2</a></li>
-                                                            <li><a href="blog-masonry-col-3.html">Masonry Col-3</a></li>
-                                                            <li><a href="blog-masonry-col-4.html">Masonry Col-4</a></li>
-                                                            <li><a href="blog-masonry-wide.html">Masonry Wide</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li class="dropdown">
-                                                        <a href="#">Grid View</a>
-                                                        <ul>
-                                                            <li><a href="blog-grid-col-2.html">Grid Col-2</a></li>
-                                                            <li><a href="blog-grid-col-3.html">Grid Col-3</a></li>
-                                                            <li><a href="blog-grid-col-4.html">Grid Col-4</a></li>
-                                                        </ul>
-                                                    </li>
-                                                    <li><a href="blog-classic.html">Blog Classic</a></li>
-                                                    <li><a href="blog-single-detail.html">Blog Single Detail</a></li>
-                                                </ul>
-                                            </li>
-                                            <li>
-                                                    <Link to='/contact-us'> Contact Us</Link>
-                                            </li>
+                                            <li> <Link to='/contact-us'> Contact Us</Link> </li>
                                         </ul>
                                     </div>
                                 </div>

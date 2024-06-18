@@ -1,3 +1,5 @@
+import SocialTeam from "../../core/utils/SocialTeam";
+
 function Team () {
     return (
         <section class="section-lgx team-one">
@@ -20,7 +22,7 @@ function Team () {
                             <article class="pbmit-team-style-3 swiper-slide">
                                 <div class="pbminfotech-post-item">
                                     <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Business Manager</div>
+                                        <div class="pbminfotech-box-team-position">CEO</div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
                                                 <img src="images/homepage-01/team/team-img-01.jpg" class="img-fluid" alt=""></img>
@@ -28,32 +30,16 @@ function Team () {
                                         </div>
                                         <div class="pbmit-team-title-wapper">
                                             <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Edward Smith</a>
+                                                <a href="team-member-detail.html">Victor Etukinyang</a>
                                             </h3>
                                         </div>
                                         <div class="pbminfotech-box-social-links">
-                                            <ul class="pbmit-social-links pbmit-team-social-links">
-                                                <li class="pbmit-social-li pbmit-social-facebook">
-                                                    <a href="#" title="Facebook" target="_blank">
-                                                        <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-twitter">
-                                                    <a href="#" title="Twitter" target="_blank">
-                                                        <span><i class="pbmit-base-icon-twitter"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-instagram">
-                                                    <a href="#" title="Instagram" target="_blank">
-                                                        <span><i class="pbmit-base-icon-instagram"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-youtube">
-                                                    <a href="#" title="Youtube" target="_blank">
-                                                        <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <SocialTeam 
+                                                fbUrl=""
+                                                xUrl=""
+                                                instaUrl=""
+                                                linkedUrl=""
+                                            />
                                         </div>
                                     </div>
                                     <a href="team-member-detail.html" class="pbmit-link"></a>
@@ -63,40 +49,24 @@ function Team () {
                             <article class="pbmit-team-style-3 swiper-slide">
                                 <div class="pbminfotech-post-item">
                                     <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Legal Officer</div>
+                                        <div class="pbminfotech-box-team-position">Managing Director</div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/homepage-01/team/team-img-02.jpg" class="img-fluid" alt=""></img>
+                                                <img src="/assets/img/team/" class="img-fluid" alt=""></img>
                                             </div>
                                         </div>
                                         <div class="pbmit-team-title-wapper">
                                             <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Julia Taylor</a>
+                                                <a href="team-member-detail.html">Grace Etukinyang</a>
                                             </h3>
                                         </div>
                                         <div class="pbminfotech-box-social-links">
-                                            <ul class="pbmit-social-links pbmit-team-social-links">
-                                                <li class="pbmit-social-li pbmit-social-facebook">
-                                                    <a href="#" title="Facebook" target="_blank">
-                                                        <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-twitter">
-                                                    <a href="#" title="Twitter" target="_blank">
-                                                        <span><i class="pbmit-base-icon-twitter"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-instagram">
-                                                    <a href="#" title="Instagram" target="_blank">
-                                                        <span><i class="pbmit-base-icon-instagram"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-youtube">
-                                                    <a href="#" title="Youtube" target="_blank">
-                                                        <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <SocialTeam 
+                                                fbUrl=""
+                                                xUrl=""
+                                                instaUrl=""
+                                                linkedUrl=""
+                                            />
                                         </div>
                                     </div>
                                     <a href="team-member-detail.html" class="pbmit-link"></a>
@@ -106,7 +76,7 @@ function Team () {
                             <article class="pbmit-team-style-3 swiper-slide">
                                 <div class="pbminfotech-post-item">
                                     <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Finance Advisor</div>
+                                        <div class="pbminfotech-box-team-position">Director of IT</div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
                                                 <img src="images/homepage-01/team/team-img-03.jpg" class="img-fluid" alt=""></img>
@@ -114,32 +84,16 @@ function Team () {
                                         </div>
                                         <div class="pbmit-team-title-wapper">
                                             <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Paula Den</a>
+                                                <a href="team-member-detail.html">Emmanuel Akpan</a>
                                             </h3>
                                         </div>
                                         <div class="pbminfotech-box-social-links">
-                                            <ul class="pbmit-social-links pbmit-team-social-links">
-                                                <li class="pbmit-social-li pbmit-social-facebook">
-                                                    <a href="#" title="Facebook" target="_blank">
-                                                        <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-twitter">
-                                                    <a href="#" title="Twitter" target="_blank">
-                                                        <span><i class="pbmit-base-icon-twitter"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-instagram">
-                                                    <a href="#" title="Instagram" target="_blank">
-                                                        <span><i class="pbmit-base-icon-instagram"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-youtube">
-                                                    <a href="#" title="Youtube" target="_blank">
-                                                        <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <SocialTeam 
+                                                fbUrl=""
+                                                xUrl=""
+                                                instaUrl=""
+                                                linkedUrl=""
+                                            />
                                         </div>
                                     </div>
                                     <a href="team-member-detail.html" class="pbmit-link"></a>
@@ -149,7 +103,7 @@ function Team () {
                             <article class="pbmit-team-style-3 swiper-slide">
                                 <div class="pbminfotech-post-item">
                                     <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Tax Examiner</div>
+                                        <div class="pbminfotech-box-team-position">Director of Account</div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
                                                 <img src="images/homepage-01/team/team-img-04.jpg" class="img-fluid" alt=""></img>
@@ -157,32 +111,16 @@ function Team () {
                                         </div>
                                         <div class="pbmit-team-title-wapper">
                                             <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Carla Hall</a>
+                                                <a href="team-member-detail.html">Nathaniel Jimmy</a>
                                             </h3>
                                         </div>
                                         <div class="pbminfotech-box-social-links">
-                                            <ul class="pbmit-social-links pbmit-team-social-links">
-                                                <li class="pbmit-social-li pbmit-social-facebook">
-                                                    <a href="#" title="Facebook" target="_blank">
-                                                        <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-twitter">
-                                                    <a href="#" title="Twitter" target="_blank">
-                                                        <span><i class="pbmit-base-icon-twitter"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-instagram">
-                                                    <a href="#" title="Instagram" target="_blank">
-                                                        <span><i class="pbmit-base-icon-instagram"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-youtube">
-                                                    <a href="#" title="Youtube" target="_blank">
-                                                        <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <SocialTeam 
+                                                fbUrl=""
+                                                xUrl=""
+                                                instaUrl=""
+                                                linkedUrl=""
+                                            />
                                         </div>
                                     </div>
                                     <a href="team-member-detail.html" class="pbmit-link"></a>
@@ -192,50 +130,35 @@ function Team () {
                             <article class="pbmit-team-style-3 swiper-slide">
                                 <div class="pbminfotech-post-item">
                                     <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Cost Estimator</div>
+                                        <div class="pbminfotech-box-team-position">Software Lead</div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
-                                                <img src="images/homepage-01/team/team-img-05.jpg" class="img-fluid" alt=""></img>
+                                                <img src="/assets/img/team/talented_vicky.jpg" class="img-fluid" alt="talented_vicky"></img>
                                             </div>
                                         </div>
                                         <div class="pbmit-team-title-wapper">
                                             <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Mark Donald</a>
+                                                <a href="#">Victor Otubure</a>
                                             </h3>
                                         </div>
                                         <div class="pbminfotech-box-social-links">
-                                            <ul class="pbmit-social-links pbmit-team-social-links">
-                                                <li class="pbmit-social-li pbmit-social-facebook">
-                                                    <a href="#" title="Facebook" target="_blank">
-                                                        <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-twitter">
-                                                    <a href="#" title="Twitter" target="_blank">
-                                                        <span><i class="pbmit-base-icon-twitter"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-instagram">
-                                                    <a href="#" title="Instagram" target="_blank">
-                                                        <span><i class="pbmit-base-icon-instagram"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-youtube">
-                                                    <a href="#" title="Youtube" target="_blank">
-                                                        <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <SocialTeam 
+                                                fbUrl="https://web.facebook.com/otubure.victor/?_rdc=1&_rdr"
+                                                xUrl="https://www.x.com/talented_vicky"
+                                                instaUrl="https://www.instagram.com/talented_vicky/"
+                                                linkedUrl="https://www.linkedin.com/in/victor-otubure-4849011a2"
+                                            />
                                         </div>
                                     </div>
-                                    <a href="team-member-detail.html" class="pbmit-link"></a>
+                                    <a href="#" class="pbmit-link"></a>
+                                    {/* <a href="team-member-detail.html" class="pbmit-link"></a> */}
                                 </div>
                             </article>
                             {/* <!-- Slide6 --> */}
                             <article class="pbmit-team-style-3 swiper-slide">
                                 <div class="pbminfotech-post-item">
                                     <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Treasury Analyst</div>
+                                        <div class="pbminfotech-box-team-position">Design Lead</div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
                                                 <img src="images/homepage-01/team/team-img-06.jpg" class="img-fluid" alt=""></img>
@@ -243,42 +166,26 @@ function Team () {
                                         </div>
                                         <div class="pbmit-team-title-wapper">
                                             <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Jamie Oliver</a>
+                                                <a href="team-member-detail.html">Eniola Kwuelum</a>
                                             </h3>
                                         </div>
                                         <div class="pbminfotech-box-social-links">
-                                            <ul class="pbmit-social-links pbmit-team-social-links">
-                                                <li class="pbmit-social-li pbmit-social-facebook">
-                                                    <a href="#" title="Facebook" target="_blank">
-                                                        <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-twitter">
-                                                    <a href="#" title="Twitter" target="_blank">
-                                                        <span><i class="pbmit-base-icon-twitter"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-instagram">
-                                                    <a href="#" title="Instagram" target="_blank">
-                                                        <span><i class="pbmit-base-icon-instagram"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-youtube">
-                                                    <a href="#" title="Youtube" target="_blank">
-                                                        <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
+                                            <SocialTeam 
+                                                    fbUrl=""
+                                                    xUrl=""
+                                                    instaUrl=""
+                                                    linkedUrl=""
+                                            />
                                         </div>
                                     </div>
-                                    <a href="team-member-detail.html" class="pbmit-link"></a>
+                                    <a href="#" class="pbmit-link"></a>
                                 </div>
                             </article>
                             {/* <!-- Slide7 --> */}
                             <article class="pbmit-team-style-3 swiper-slide">
                                 <div class="pbminfotech-post-item">
                                     <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Stockbroker</div>
+                                        <div class="pbminfotech-box-team-position">Organizer</div>
                                         <div class="pbmit-featured-img-wrapper">
                                             <div class="pbmit-featured-wrapper">
                                                 <img src="images/homepage-01/team/team-img-07.jpg" class="img-fluid" alt=""></img>
@@ -286,7 +193,7 @@ function Team () {
                                         </div>
                                         <div class="pbmit-team-title-wapper">
                                             <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Alice Waters</a>
+                                                <a href="team-member-detail.html">Lagbaja</a>
                                             </h3>
                                         </div>
                                         <div class="pbminfotech-box-social-links">
@@ -314,50 +221,7 @@ function Team () {
                                             </ul>
                                         </div>
                                     </div>
-                                    <a href="team-member-detail.html" class="pbmit-link"></a>
-                                </div>
-                            </article>
-                            {/* <!-- Slide8 --> */}
-                            <article class="pbmit-team-style-3 swiper-slide">
-                                <div class="pbminfotech-post-item">
-                                    <div class="pbminfotech-box-content">
-                                        <div class="pbminfotech-box-team-position">Chief Finance</div>
-                                        <div class="pbmit-featured-img-wrapper">
-                                            <div class="pbmit-featured-wrapper">
-                                                <img src="images/homepage-01/team/team-img-08.jpg" class="img-fluid" alt=""></img>
-                                            </div>
-                                        </div>
-                                        <div class="pbmit-team-title-wapper">
-                                            <h3 class="pbmit-team-title">
-                                                <a href="team-member-detail.html">Julia Taylor</a>
-                                            </h3>
-                                        </div>
-                                        <div class="pbminfotech-box-social-links">
-                                            <ul class="pbmit-social-links pbmit-team-social-links">
-                                                <li class="pbmit-social-li pbmit-social-facebook">
-                                                    <a href="#" title="Facebook" target="_blank">
-                                                        <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-twitter">
-                                                    <a href="#" title="Twitter" target="_blank">
-                                                        <span><i class="pbmit-base-icon-twitter"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-instagram">
-                                                    <a href="#" title="Instagram" target="_blank">
-                                                        <span><i class="pbmit-base-icon-instagram"></i></span>
-                                                    </a>
-                                                </li>
-                                                <li class="pbmit-social-li pbmit-social-youtube">
-                                                    <a href="#" title="Youtube" target="_blank">
-                                                        <span><i class="pbmit-base-icon-youtube-play"></i></span>
-                                                    </a>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <a href="team-member-detail.html" class="pbmit-link"></a>
+                                    <a href="#" class="pbmit-link"></a>
                                 </div>
                             </article>
                         </div>	

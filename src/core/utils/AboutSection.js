@@ -29,13 +29,15 @@ function AboutSection () {
                             <a class="pbmit-link" href="about-us.html"></a>
                         </div>
                     </article>
-                    {/* <!-- Slide2 --> */}
+                    {/* {/* <!-- Slide2 --> */}
                     <article class="pbmit-miconheading-style-1 swiper-slide">
                         <div class="pbmit-ihbox-style-1">
                             <div class="pbmit-ihbox-contents">
-                                <h4 class="pbmit-element-subtitle">We Good Company</h4>
-                                <h2 class="pbmit-element-title"> Personal <br></br> Development </h2>
-                                <div class="pbmit-heading-desc">Consectetur adipiscing elit sed do eiusm onsectetur adipiscing elit.</div>
+                                <h4 class="pbmit-element-subtitle">Our provisions</h4>
+                                <h2 class="pbmit-element-title"> Individual/Community <br></br> Leads </h2>
+                                <div class="pbmit-heading-desc">
+                                    Meticulously designed to cater to various needs and challenges faced by individuals and communities, by providing a holistic approach to improving lives across the continent and beyond.
+                                </div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="#">
                                         <span>
@@ -52,14 +54,14 @@ function AboutSection () {
                             <a class="pbmit-link" href="about-us.html"></a>
                         </div>
                     </article>
-                    {/* {/* <!-- Slide3 --> */}
+                    {/* <!-- Slide3 --> */}
                     <article class="pbmit-miconheading-style-1 swiper-slide">
                         <div class="pbmit-ihbox-style-1">
                             <div class="pbmit-ihbox-contents">
-                                <h4 class="pbmit-element-subtitle">What We Offer</h4>
-                                <h2 class="pbmit-element-title"> Individual & Community <br></br> Leads </h2>
+                                <h4 class="pbmit-element-subtitle">Benefits with us</h4>
+                                <h2 class="pbmit-element-title"> Reward <br></br> Plan </h2>
                                 <div class="pbmit-heading-desc">
-                                    Meticulously designed to cater to various needs and challenges faced by individuals and communitie by providing a holistic approach to improving lives across the continent and beyond
+                                    Empowering individuals and communities with a revolutionary reward plan that aims to transform lives and create a ripple effect of positive change globally.
                                 </div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="#">
@@ -81,10 +83,10 @@ function AboutSection () {
                     <article class="pbmit-miconheading-style-1 swiper-slide">
                         <div class="pbmit-ihbox-style-1">
                             <div class="pbmit-ihbox-contents">
-                                <h4 class="pbmit-element-subtitle">Benefits with us</h4>
-                                <h2 class="pbmit-element-title"> Revolutionary Reward <br></br> Plan </h2>
+                                <h4 class="pbmit-element-subtitle">What we give</h4>
+                                <h2 class="pbmit-element-title"> Standards & <br></br> Legacy </h2>
                                 <div class="pbmit-heading-desc">
-                                    At the core of IGOGLOBAL INTERNATIONAL INC. lies our grassroots business model, aimed at empowering individuals and communities by transforming lives and creating a ripple effect of positive change globally
+                                    Through constant innovation and unwavering integrity, we are committed to setting new standards and building a legacy that you can be proud to be a part of, a place you can truly call your own.
                                 </div>
                                 <div class="pbmit-ihbox-btn">
                                     <a href="#">

@@ -1,3 +1,5 @@
+import Social from "../../core/utils/Social";
+
 function ContactForm () {
     return (
         <section class="section-lgx">
@@ -17,23 +19,7 @@ function ContactForm () {
                                 </div>
                                 <div class="pbmit-social-link">
                                     <h3>Follow us :</h3>
-                                    <ul class="pbmit-social-links">
-                                        <li class="pbmit-social-li pbmit-social-facebook">
-                                            <a href="#" target="_blank">
-                                                <span><i class="pbmit-base-icon-facebook-squared"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-twitter">
-                                            <a href="#" target="_blank">
-                                                <span><i class="pbmit-base-icon-twitter"></i></span>
-                                            </a>
-                                        </li>
-                                        <li class="pbmit-social-li pbmit-social-instagram">
-                                            <a href="#" target="_blank">
-                                                <span><i class="pbmit-base-icon-instagram"></i></span>
-                                            </a>
-                                        </li>
-                                    </ul>
+                                    <Social/>
                                 </div>
                             </div>
                         </div>

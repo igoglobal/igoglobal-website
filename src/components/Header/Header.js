@@ -5,8 +5,8 @@ import Nav from './Nav';
 
 function Header () {
     const location = useLocation();
-    const isNotHomePage = location.pathname !== "/contact-us" && location.pathname !== "/services";
-    console.log(isNotHomePage)
+    const isNotHomePage = location.pathname !== "/contact-us" && location.pathname !== "/services" 
+            && location.pathname !== "/iroko" && location.pathname !== "/pure-virgin";
     
     return (
         <header class="site-header header-style-1">

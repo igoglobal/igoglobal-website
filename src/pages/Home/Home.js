@@ -5,8 +5,6 @@ import About from "../../components/Home/About";
 import Client from "../../components/Home/Client";
 import Team from "../../components/Home/Team";
 import Process from "../../components/Home/Process";
-import Marquee from "../../components/Home/Marquee";
-import Fidbg from "../../components/Home/Fidbg";
 import SearchBox from "../../components/Home/SearchBox";
 
 import AboutSection from "../../core/utils/AboutSection";
@@ -20,8 +18,6 @@ function Home () {
                 <About/>
                 <Service/>
                 <Process/>
-                <Marquee/>
-                <Fidbg/>
                 <Team/>
                 <Client/>
                 <Testimonial/>
