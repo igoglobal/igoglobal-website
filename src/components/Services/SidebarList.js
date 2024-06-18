@@ -9,12 +9,11 @@ function SidebarList () {
                     <li class="post-active">
                         <Link to='/services'> Excellece</Link>
                     </li>
-                    <li><a href="#"> Health & Wellness </a></li>
+                    <li><a href="#"> Health </a></li>
+                    <li><a href="#"> Wellness </a></li>
                     <li><a href="#"> Real Estate </a></li>
-                    <li><a href="#"> e-Learning </a></li>
+                    <li><a href="#"> Education </a></li>
                     <li><a href="#"> Technology </a></li>
-                    <li><a href="#"> Expert Consultation </a></li>
-                    <li><a href="#"> Market Research </a></li>
                 </ul>
             </div>
         </aside>

@@ -1,4 +1,4 @@
-import SocialTeam from "../../core/utils/SocialTeam";
+import SocialTeam from "./SocialTeam";
 
 function Team () {
     return (

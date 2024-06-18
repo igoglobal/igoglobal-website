@@ -8,18 +8,21 @@ import Home from './pages/Home/Home';
 import Contact from './pages/Contact/Contact';
 import Services from './pages/Services/Services';
 import Product from './pages/Product/Product';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
   return (
     // Masonry view >> grid wide => gallery page
     <Router>
       <Header/>
+
       <Routes>
-        <Route path='/' element={<Home/>}></Route>
-        <Route path='/services' element={<Services/>}></Route>
-        <Route path='/iroko' element={<Product/>}></Route>
-        <Route path='/pure-virgin' element={<Product/>}></Route>
-        <Route path='/contact-us' element={<Contact/>}></Route>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/services' element={<Services/>}/>
+        <Route path='/iroko' element={<Product/>}/>
+        <Route path='/pure-virgin' element={<Product/>}/>
+        <Route path='/contact-us' element={<Contact/>}/>
+        <Route path='/about-us' element={<AboutUs/>}/>
       </Routes>
 
       <Footer/>

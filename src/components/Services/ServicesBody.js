@@ -6,9 +6,12 @@ function ServicesBody () {
             </div>
             <div class="pbmit-entry-content">
                 <div class="pbmit-heading-subheading animation-style2">
-                    <h3 class="pbmit-title">Future Management Consulting</h3>
+                    <h3 class="pbmit-title">Health and Wellness</h3>
                 </div>
-                <p>What are the top consulting firms in India for Finance services? The top Finance consulting firms in India list presents the country’s leading consultancy firms <strong>specialised in Finance</strong> , based on our unique database of more than 1 million data points spanning insights from clients and consultants. Both consultants and advisors may have studied economics, accounting or finance in college. It isn’t uncommon for them to earn MBAs, and many hold advanced certifications. One of the most highly regarded certifications is the certified financial planner (CFP) designation, but there are many others of value. Capabilities are assessed on the breadth of depth of Finance offerings, advisory and implementation expertise in Finance, the track record of consulting projects delivered in the area of Finance and the quality of thought leadership.</p>
+                <p>Our approach at Igoglobal breaks the mold of traditional industry standards by recognizing that everyone is unique, with diverse backgrounds, tastes, and aspirations. Igoglobal is dedicated to embracing your individuality and unlocking your exceptional potential.</p>
+                <p>Our range of products is carefully crafted to cater to specific needs in various consumer markets, while our business opportunity is designed to empower you to create the lifestyle you desire, tailored to your preferences.</p>
+                <p>With a focus on your individual needs, our leadership has set out to create a company that stands out, whether you're a customer or a distributor. This commitment to customization drives everything we do, shaping our present and future endeavors.</p>
+
                 <div class="pbmit-service_imgbox">
                     <div class="row">
                         <div class="col-md-6">
@@ -24,9 +27,9 @@ function ServicesBody () {
                     </div>
                 </div>
                 <div class="pbmit-heading-subheading animation-style2">
-                    <h3 class="pbmit-title">Finance Planning & Strategy</h3>
+                    <h3 class="pbmit-title">Education and Technology</h3>
                 </div>
-                <p>In some cases, a financial consultant may have more financial plan experience than the typical financial advisor. Financial consultants usually provide investment services as well, though. our clients are often surprised by the possibilities we present to them; by thinking outside the box we present exciting new ventures:</p>
+                <p>lorem thingy sha</p>
                 <ul class="list-group list-group-borderless">
                     <li class="list-group-item">
                         <span class="pbmit-icon-list-icon">
@@ -60,7 +63,7 @@ function ServicesBody () {
                     </li>
                 </ul>
                 <div class="pbmit-heading-subheading animation-style2">
-                    <h3 class="pbmit-title">Finance Research & analysis</h3>
+                    <h3 class="pbmit-title">Real Estate</h3>
                 </div>
                 <div class="chart-card-area">
                     <div class="row">

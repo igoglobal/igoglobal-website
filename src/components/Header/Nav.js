@@ -51,7 +51,7 @@ function Nav () {
                                             <li class="dropdown">
                                                 <a href="#">Pages</a>
                                                 <ul>
-                                                    <li><a href="about-us.html">About Us</a></li>
+                                                    <li><Link to="/about-us">About Us </Link></li>
                                                     <li> <Link to='/services'> Services</Link> </li>
                                                     <li><a href="#">Blogs</a></li>
                                                     <li><a href="#">Our Team Member</a></li>

@@ -42,17 +42,17 @@ function Iroko () {
                 <div class="pbmit-pf_imgbox">
                     <div class="row">
                         <div class="col-md-4">
-                            <div class="pbmit-animation-style1">
-                                <img src="/assets/img/product/irk-info.jpg" class="img-fluid" alt="iroko"></img>
+                            <div class="pbmit-animation-style1 active">
+                                <img src="/assets/img/product/iroko.png" class="img-fluid" alt="iroko"></img>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="pbmit-animation-style4">
+                            <div class="pbmit-animation-style4 active">
                                 <img src="/assets/img/product/iroko-part.jpg" class="img-fluid" alt=""></img>
                             </div>
                         </div>
                         <div class="col-md-4">
-                            <div class="pbmit-animation-style2">
+                            <div class="pbmit-animation-style2 active">
                                 <img src="/assets/img/product/irk-info.jpg" class="img-fluid" alt=""></img>
                             </div>
                         </div>

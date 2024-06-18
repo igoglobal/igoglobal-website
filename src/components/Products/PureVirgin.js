@@ -1,7 +1,7 @@
 function PureVirgin () {
     return (
         <>
-            <p>thingy</p>
+            <p>data currently not available</p>
         </>
     )
 }
