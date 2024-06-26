@@ -17,9 +17,9 @@ function Product () {
                 title={isIroko ? "Iroko" : "Pure Virgin"}
                 sectionName={isIroko ? "iroko": "pure virgin"}
             />
-            <div class="page-content">   
-                <section class="site_content">
-                    <div class="container">
+            <div className="page-content">   
+                <section className="site_content">
+                    <div className="container">
                         { isIroko && <Iroko/>}
                         { isPureVirgin && <PureVirgin/>}
                     </div>

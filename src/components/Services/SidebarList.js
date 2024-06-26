@@ -2,11 +2,11 @@ import { Link } from "react-router-dom";
 
 function SidebarList () {
     return (
-        <aside class="widget post-list">
-            <h2 class="widget-title">Our Services</h2>
-            <div class="all-post-list">
+        <aside className="widget post-list">
+            <h2 className="widget-title">Our Services</h2>
+            <div className="all-post-list">
                 <ul>
-                    <li class="post-active">
+                    <li className="post-active">
                         <Link to='/services'> Excellece</Link>
                     </li>
                     <li><a href="#"> Health </a></li>

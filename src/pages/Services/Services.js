@@ -12,13 +12,13 @@ function Services () {
                 title="Quality Services"
                 sectionName="Services"
             />
-            <div class="page-content">
-                <section class="service_details">
-                    <div class="container">
-                        <div class="row">
+            <div className="page-content">
+                <section className="service_details">
+                    <div className="container">
+                        <div className="row">
                             <ServicesSidebar/>
-                            <div class="col-lg-9 service-right-col order-1">
-                                <div class="pbmit-service-single">
+                            <div className="col-lg-9 service-right-col order-1">
+                                <div className="pbmit-service-single">
                                     <ServicesBody/>
                                     <ServicesFaq/>
                                 </div>

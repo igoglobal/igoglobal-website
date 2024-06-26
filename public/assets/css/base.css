@@ -4,7 +4,7 @@ INDEX:
     01 - Typography
     02 - Text Color & Background Color
     03 - Background Position & Size
-    04 - Helper class
+    04 - Helper className
     05 - Social icons
     06 - Header
     07 - Bootstrap Overwrite 
@@ -18,13 +18,15 @@ INDEX:
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet');
 
  :root {
-     --pbmit-global-color: #00b30f;
+     /* --pbmit-global-color: #00b30f; */
+     --pbmit-global-color: #59a404;
      --pbmit-secondary-color: #03251e;
      --pbmit-light-color: #f5f2f0;
      --pbmit-white-color: #ffffff;
      --pbmit-blackish-color: #052e26;
      --pbmit-link-color-normal: #001410;
-     --pbmit-link-color-hover: #00b30f;
+     /* --pbmit-link-color-hover: #00b30f; */
+     --pbmit-link-color-hover: #59a404;
      --pbmit-global-color-rgb: rgb(0, 179, 15);
      --pbmit-secondary-color-rgb:rgb(3, 37, 30);
      --pbmit-responsive-breakpoint: 1200px;
@@ -34,7 +36,7 @@ INDEX:
      --pbmit-body-typography-line-height: 1.6;
      --pbmit-body-typography-color: #666666;
      --pbmit-heading-typography-font-family:'Wix Madefor Display', sans-serif;
-     --pbmit-heading-color: #111112;
+     --pbmit-heading-color: rgb(82, 145, 11);
      --pbmit-heading-font-variant: 600;
      --pbmit-btn-typography-font-family:'Wix Madefor Display', sans-serif;
      --pbmit-btn-typography-variant: 600;

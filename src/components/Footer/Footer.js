@@ -7,26 +7,26 @@ import TermsPolicy from "./TermsPolicy";
 
 function Footer () {
     return (
-        <footer class="site-footer pbmit-text-color-white">
-            <div class="pbmit-footer-big-area-wrapper">
-                <div class="container">
-                    <div class="row">
+        <footer className="site-footer pbmit-text-color-white">
+            <div className="pbmit-footer-big-area-wrapper">
+                <div className="container">
+                    <div className="row">
                         <FooterTitle/>
                         <FooterSearch/>
                     </div>
                 </div>
             </div>
-            <div class="pbmit-footer-main-area">
-                <div class="container">
-                    <div class="pbmit-footer-widget-area">
-                        <div class="container">
-                            <div class="row g-2">
+            <div className="pbmit-footer-main-area">
+                <div className="container">
+                    <div className="pbmit-footer-widget-area">
+                        <div className="container">
+                            <div className="row g-2">
                                 <FooterAddress/>
                                 <FooterContact/>
-                                <div class="col-md-4">
-                                    <div class="widget">
-                                        <h2 class="widget-title">Our Social</h2>
-                                        <div class="textwidget">
+                                <div className="col-md-4">
+                                    <div className="widget">
+                                        <h2 className="widget-title">Our Social</h2>
+                                        <div className="textwidget">
                                             <Social/>
                                         </div>
                                     </div>
@@ -34,8 +34,8 @@ function Footer () {
                             </div>
                         </div>
                     </div>
-                    <div class="pbmit-footer-text-area">
-                        <div class="container">
+                    <div className="pbmit-footer-text-area">
+                        <div className="container">
                             <TermsPolicy/>
                         </div>
                     </div>

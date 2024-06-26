@@ -2,53 +2,53 @@ import { Link } from 'react-router-dom';
 
 function Nav () {
     return (
-        <div class="pbmit-header-overlay">
-            {/* <div class="pbmit-pre-header-wrapper pbmit-text-color-white">
-                <div class="container-fluid">
-                    <div class="d-flex justify-content-between">
-                        <div class="pbmit-pre-header-left">
-                            <ul class="pbmit-contact-info">
-                            <li><i class="pbmit-base-icon-placeholder"></i>Ikeja City, Lagos Nigeria</li>
+        <div className="pbmit-header-overlay">
+            <div className="pbmit-pre-header-wrapper pbmit-text-color-white">
+                <div className="container-fluid">
+                    <div className="d-flex justify-content-between">
+                        <div className="pbmit-pre-header-left">
+                            <ul className="pbmit-contact-info">
+                            <li><i className="pbmit-base-icon-placeholder"></i>Ikeja City, Lagos Nigeria</li>
                             </ul>
                         </div>
-                        <div class="pbmit-pre-header-right">
-                            <ul class="pbmit-contact-info">
-                            <li><i class="pbmit-base-icon-email"></i>info@igoglobal.io</li>
-                            <li><i class="pbmit-base-icon-call"></i>+(234) 903-979-9817</li>
+                        <div className="pbmit-pre-header-right">
+                            <ul className="pbmit-contact-info">
+                            <li><i className="pbmit-base-icon-email"></i>info@igoglobal.io</li>
+                            <li><i className="pbmit-base-icon-call"></i>+(234) 903-979-9817</li>
                             </ul>
                         </div>
                     </div>
                 </div>
-            </div> */}
-            <div class="pbmit-main-header-area">
-                <div class="container-fluid">
-                    <div class="pbmit-header-content d-flex align-items-center justify-content-between">
-                        <div class="site-branding">
-                            <h1 class="site-title">
+            </div>
+            <div className="pbmit-main-header-area">
+                <div className="container-fluid">
+                    <div className="pbmit-header-content d-flex align-items-center justify-content-between">
+                        <div className="site-branding">
+                            <h1 className="site-title">
                                 <a href="index.html">
-                                    <img class="logo-img" src="/assets/img/igoglobal.png" alt="igo"></img>
-                                    <img class="pbmit-responsive-logo" src="/assets/img/igoglobal.png" alt="igo"></img>
+                                    <img className="logo-img" src="/assets/img/igoglobal.png" alt="igo"></img>
+                                    <img className="pbmit-responsive-logo" src="/assets/img/igoglobal.png" alt="igo"></img>
                                 </a>
                             </h1>
                         </div>
-                        <div class="pbmit-menuarea d-flex align-items-center">
-                            <div class="site-navigation">
-                                <nav class="main-menu navbar-expand-xl navbar-light">
-                                <div class="navbar-header">
+                        <div className="pbmit-menuarea d-flex align-items-center">
+                            <div className="site-navigation">
+                                <nav className="main-menu navbar-expand-xl navbar-light">
+                                <div className="navbar-header">
                                     {/* <!-- Toggle Button -->  */}
-                                    <button class="navbar-toggler" type="button">
-                                        <i class="pbmit-base-icon-menu-1"></i>
+                                    <button className="navbar-toggler" type="button">
+                                        <i className="pbmit-base-icon-menu-1"></i>
                                     </button>
                                 </div>
-                                <div class="pbmit-mobile-menu-bg"></div>
-                                <div class="collapse navbar-collapse clearfix show" id="pbmit-menu">
-                                    <div class="pbmit-menu-wrap">
-                                        <span class="closepanel">
-                                            <i class="pbmit-base-icon-close-circular-button-symbol"></i>
+                                <div className="pbmit-mobile-menu-bg"></div>
+                                <div className="collapse navbar-collapse clearfix show" id="pbmit-menu">
+                                    <div className="pbmit-menu-wrap">
+                                        <span className="closepanel">
+                                            <i className="pbmit-base-icon-close-circular-button-symbol"></i>
                                         </span>
-                                        <ul class="navigation clearfix">
-                                            <li class="active"> <Link to='/'> Home</Link> </li>
-                                            <li class="dropdown">
+                                        <ul className="navigation clearfix">
+                                            <li className="active"> <Link to='/'> Home</Link> </li>
+                                            <li className="dropdown">
                                                 <a href="#">Pages</a>
                                                 <ul>
                                                     <li><Link to="/about-us">About Us </Link></li>
@@ -59,7 +59,7 @@ function Nav () {
                                                 </ul>
                                             </li>
                                             <li> <Link to='/services' > Services </Link> </li>
-                                            <li class="dropdown">
+                                            <li className="dropdown">
                                                 <a href="#">Products</a>
                                                 <ul>
                                                     <li> <Link to='/iroko'>Iroko Drink</Link> </li>
@@ -72,17 +72,17 @@ function Nav () {
                                 </div>
                                 </nav>
                             </div>
-                            <div class="pbmit-right-box d-flex align-items-center">
-                                <div class="pbmit-header-search-btn">
-                                    <a href="#"><i class=" pbmit-base-icon-search-1"></i></a>
+                            <div className="pbmit-right-box d-flex align-items-center">
+                                <div className="pbmit-header-search-btn">
+                                    <a href="#"><i className=" pbmit-base-icon-search-1"></i></a>
                                 </div>
-                                <div class="pbmit-button-box">
-                                    <div class="pbmit-header-button">
-                                        <div class="pbmit-svg-btn pbmit-ihbox-btn">
-                                            <Link to='/contact-us' class="pbmit-btn pbmit-btn-outline">
-                                                <span class="pbmit-header-button-text">
+                                <div className="pbmit-button-box">
+                                    <div className="pbmit-header-button">
+                                        <div className="pbmit-svg-btn pbmit-ihbox-btn">
+                                            <Link to='/contact-us' className="pbmit-btn pbmit-btn-outline">
+                                                <span className="pbmit-header-button-text">
                                                     Get In Touch
-                                                    <svg class="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
+                                                    <svg className="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
                                                     <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
                                                     <line x1="1.2" y1="1" x2="18" y2="1"></line>
                                                     <line x1="18" y1="17.8" x2="18" y2="1"></line>

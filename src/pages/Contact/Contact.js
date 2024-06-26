@@ -12,7 +12,7 @@ function Contact () {
                 sectionName="Contact Us"
             />
 
-            <div class="page-content">  
+            <div className="page-content">  
                 <ContactInbox/>
                 <ContactForm/>
                 <ContactIframe/>

@@ -10,7 +10,7 @@ function Header () {
             && location.pathname !== "/about-us";
     
     return (
-        <header class="site-header header-style-1">
+        <header className="site-header header-style-1">
             <Nav></Nav>
             {isNotHomePage && <Slider></Slider>}
         </header>
