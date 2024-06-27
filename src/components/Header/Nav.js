@@ -25,7 +25,7 @@ function Nav () {
                     <div className="pbmit-header-content d-flex align-items-center justify-content-between">
                         <div className="site-branding">
                             <h1 className="site-title">
-                                <a href="index.html">
+                                <a href="/">
                                     <img className="logo-img" src="/assets/img/igoglobal.png" alt="igo"></img>
                                     <img className="pbmit-responsive-logo" src="/assets/img/igoglobal.png" alt="igo"></img>
                                 </a>
