@@ -40,7 +40,7 @@ function Team () {
                                 img=""
                             />
                             <Member 
-                                title="Software Lead"
+                                title="Head of IT Operations"
                                 name="Victor Otubure"
                                 img="talented_vicky.jpg"
                             />
