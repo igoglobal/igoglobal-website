@@ -25,10 +25,15 @@ function Nav () {
                     <div className="pbmit-header-content d-flex align-items-center justify-content-between">
                         <div className="site-branding">
                             <h1 className="site-title">
-                                <a href="/">
+                                <Link to='/' >
                                     <img className="logo-img" src="/assets/img/igoglobal.png" alt="igo"></img>
                                     <img className="pbmit-responsive-logo" src="/assets/img/igoglobal.png" alt="igo"></img>
-                                </a>
+                                </Link>
+
+                                {/* <a href="/">
+                                    <img className="logo-img" src="/assets/img/igoglobal.png" alt="igo"></img>
+                                    <img className="pbmit-responsive-logo" src="/assets/img/igoglobal.png" alt="igo"></img>
+                                </a> */}
                             </h1>
                         </div>
                         <div className="pbmit-menuarea d-flex align-items-center">
@@ -79,9 +84,9 @@ function Nav () {
                                 <div className="pbmit-button-box">
                                     <div className="pbmit-header-button">
                                         <div className="pbmit-svg-btn pbmit-ihbox-btn">
-                                            <Link to='/contact-us' className="pbmit-btn pbmit-btn-outline">
+                                            <Link to='/chat' className="pbmit-btn pbmit-btn-outline">
                                                 <span className="pbmit-header-button-text">
-                                                    Get In Touch
+                                                    Igo chatbot 🤗
                                                     <svg className="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
                                                     <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
                                                     <line x1="1.2" y1="1" x2="18" y2="1"></line>

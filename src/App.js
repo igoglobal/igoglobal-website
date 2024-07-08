@@ -9,6 +9,7 @@ import Contact from './pages/Contact/Contact';
 import Services from './pages/Services/Services';
 import Product from './pages/Product/Product';
 import AboutUs from './pages/AboutUs/AboutUs';
+import Chat from './pages/Chat/Chat';
 
 function App() {
   return (
@@ -19,10 +20,13 @@ function App() {
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/services' element={<Services/>}/>
-        <Route path='/iroko' element={<Product/>}/>
-        <Route path='/pure-virgin' element={<Product/>}/>
         <Route path='/contact-us' element={<Contact/>}/>
         <Route path='/about-us' element={<AboutUs/>}/>
+
+        <Route path='/chat' element={<Chat/>}/>
+
+        <Route path='/iroko' element={<Product/>}/>
+        <Route path='/pure-virgin' element={<Product/>}/>        
       </Routes>
 
       <Footer/>
