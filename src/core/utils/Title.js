@@ -1,6 +1,26 @@
+import { useLocation } from 'react-router-dom';
+
+
 function Title ({ title, sectionName}) {
+	const location = useLocation()
+	
+	const ctct = location.pathname !== "/contact-us"
+	const serv = location.pathname !== "/services" 
+	const abt = location.pathname !== "/about-us";
+	
+	const irk = location.pathname !== "/iroko" 
+	const pvirg = location.pathname !== "/pure-virgin"
+
+	console.log(ctct)
+	if(!ctct) {
+		console.log(ctct)
+	}
+
     return (
-        <div className="pbmit-title-bar-wrapper">
+        <div className={`pbmit-title-bar-wrapper 
+			${!ctct ? "contact" : ""} ${!serv ? "services" : ""} ${!abt ? "about" : ""}
+			${!irk ? "iroko" : ""} ${!pvirg ? "pvirgin" : ""}`
+		}>
 			<div className="container">
 				<div className="pbmit-title-bar-content">
 					<div className="pbmit-title-bar-content-inner">

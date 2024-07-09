@@ -29,11 +29,6 @@ function Nav () {
                                     <img className="logo-img" src="/assets/img/igoglobal.png" alt="igo"></img>
                                     <img className="pbmit-responsive-logo" src="/assets/img/igoglobal.png" alt="igo"></img>
                                 </Link>
-
-                                {/* <a href="/">
-                                    <img className="logo-img" src="/assets/img/igoglobal.png" alt="igo"></img>
-                                    <img className="pbmit-responsive-logo" src="/assets/img/igoglobal.png" alt="igo"></img>
-                                </a> */}
                             </h1>
                         </div>
                         <div className="pbmit-menuarea d-flex align-items-center">

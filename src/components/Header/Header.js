@@ -14,7 +14,6 @@ function Header () {
             <Nav></Nav>
             {isNotHomePage && <Slider></Slider>}
         </header>
-   
     )
 }
 
