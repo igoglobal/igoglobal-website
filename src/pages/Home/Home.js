@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 import Testimonial from "../../core/utils/Testimonial";
 import Blog from "../../components/Home/Blog";
 import About from "../../components/Home/About";
@@ -9,7 +11,23 @@ import Service from "../../core/utils/Service";
 import Team from "../../components/Team/Team";
 
 
-function Home () {
+function Home () {    
+    useEffect(() => {
+        const isLoaded = sessionStorage.getItem("loader")
+    
+        if(!isLoaded){
+            sessionStorage.setItem("loader", "true")
+            window.location.reload()
+        }
+    
+        return () => {
+            if(window.location.pathname !== "/"){
+                sessionStorage.removeItem("loader")
+            }
+        }
+    }, [])
+
+
     return (
         <div className="page-wrapper">
             <div className="page-content">

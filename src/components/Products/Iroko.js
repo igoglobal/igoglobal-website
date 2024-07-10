@@ -2,7 +2,7 @@ import ProductInfo from "./ProductInfo";
 
 function Iroko () {
     return (
-        <article class="pbmit-portfolio-single">
+        <article className="pbmit-portfolio-single">
             <ProductInfo 
                 img="" title="Iroko" category="Health" date="06 April, 2024" 
                 p1=""
