@@ -25,7 +25,7 @@ INDEX:
      --pbmit-white-color: #ffffff;
      --pbmit-blackish-color: #052e26;
      --pbmit-link-color-normal: #001410;
-     /* --pbmit-link-color-hover: #00b30f; */
+     --pbmit-link-color-active: rgb(13, 13, 207);
      --pbmit-link-color-hover: #59a404;
      --pbmit-global-color-rgb: rgb(0, 179, 15);
      --pbmit-secondary-color-rgb:rgb(3, 37, 30);
@@ -506,12 +506,23 @@ ul.pbmit-contact-info {
 .main-menu .navigation > li > ul a:after{
 	display: none;
 }
- .site-navigation ul.navigation a{
-     font-family: var(--pbmit-heading-typography-font-family);
-     font-weight: normal;
-     font-size: 16px;
-     font-style: normal;
+.site-header .site-navigation ul.navigation > li > .active {
+    color: var(--pbmit-link-color-active);
+    font-style: italic;
+    font-weight: 800;
 }
+.site-navigation ul.navigation a{
+    font-family: var(--pbmit-heading-typography-font-family);
+    font-weight: normal;
+    font-size: 16px;
+    font-style: normal;
+}
+.main-menu .navigation > li > ul .active {
+	color: var(--pbmit-link-color-active);
+    font-style: italic;
+    font-weight: 800;
+}
+
  .main-menu .navigation > li {
      position: relative;
      float: left;

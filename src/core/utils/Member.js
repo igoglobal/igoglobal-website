@@ -17,7 +17,7 @@ function Member ({title, name, img}) {
                     </div>
                     <div className="pbmit-team-title-wapper">
                         <h3 className="pbmit-team-title">
-                            <a href="team-member-detail.html">{name}</a>
+                            <a href="#">{name}</a>
                         </h3>
                     </div>
                     <div className="pbminfotech-box-social-links">

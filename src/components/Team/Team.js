@@ -1,5 +1,4 @@
 import Member from "../../core/utils/Member";
-import SocialTeam from "../../core/utils/SocialTeam";
 
 function Team () {
     return (
@@ -27,7 +26,7 @@ function Team () {
                             <Member 
                                 title="Managing Director"
                                 name="Grace Etukinyang"
-                                img=""
+                                img="grace.jpg"
                             />
                             <Member 
                                 title="Director of IT"
@@ -37,7 +36,7 @@ function Team () {
                             <Member 
                                 title="Director of Account"
                                 name="Nathaniel Jimmy"
-                                img=""
+                                img="nath.jpg"
                             />
                             <Member 
                                 title="Head of IT Operations"
@@ -47,7 +46,7 @@ function Team () {
                             <Member 
                                 title="Head of Design"
                                 name="Eniola Kwuelum"
-                                img="eniola.jpg"
+                                img="eniola.png"
                             />
                             <Member 
                                 title="Marketing Lead"

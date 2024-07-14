@@ -12,6 +12,15 @@ import Team from "../../components/Team/Team";
 
 
 function Home () {    
+    // // pop up dialogue box for chatbot
+    // useEffect(() => {
+    //     // call this function every 1 minute
+    //     setTimeout(() => {
+    //         //
+    //     }, 4000);
+    // })
+
+
     useEffect(() => {
         const isLoaded = sessionStorage.getItem("loader")
     

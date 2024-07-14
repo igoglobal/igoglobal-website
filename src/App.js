@@ -10,10 +10,12 @@ import Services from './pages/Services/Services';
 import Product from './pages/Product/Product';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Chat from './pages/Chat/Chat';
+import Blog from './pages/Blog/Blog';
 
 function App() {
   return (
-    // Masonry view >> grid wide => gallery page
+    // Masonry view >> grid wide => gallery page 
+
     <Router>
       <Header/>
 
@@ -22,6 +24,7 @@ function App() {
         <Route path='/services' element={<Services/>}/>
         <Route path='/contact-us' element={<Contact/>}/>
         <Route path='/about-us' element={<AboutUs/>}/>
+        <Route path='/blogs' element={<Blog/>}/>
 
         <Route path='/chat' element={<Chat/>}/>
 
@@ -32,13 +35,10 @@ function App() {
       <Footer/>
 
       <Helmet>
-
-         {/* <!-- JS --> */}
         <script src="./assets/js/cursor.js"></script>
         <script src='./assets/js/magnetic.js'></script>
         {/* <script src='./assets/js/gsap-animation.js'></script> */}
         <script src="./assets/js/scripts.js"></script>
-
       </Helmet>
     </Router>
   );

@@ -1,7 +1,6 @@
 import ProductInfo from "./ProductInfo";
 
 function PureVirgin () {
-    const data = null;
     return (
         <article className="pbmit-portfolio-single">
             <ProductInfo 
@@ -10,7 +9,7 @@ function PureVirgin () {
                 p2="Yeast infections and vaginal dryness are common issues that many women face, often leading to discomfort and embarrassment. These conditions can significantly impact a woman’s quality of life, causing itching, burning, and irritation." 
                 p3="Pure Virgin is specifically formulated to address these concerns with the power of natural ingredients that have been trusted for centuries."
                 
-                img1="irk4.avif" img2="irk2.avif" img3="irk3.avif"
+                img1="pv1.avif" img2="pv2.avif" img3="pv3.avif"
                 
                 benefits="Pure Virgin is derived from nature’s finest elements, ensuring that every application is safe, gentle, and effective. We understand the importance of using natural ingredients for feminine care, and Pure Virgin embodies this commitment by combining traditional knowledge with modern science."
                 

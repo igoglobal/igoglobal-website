@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function Nav () {
     return (
@@ -47,48 +47,60 @@ function Nav () {
                                             <i className="pbmit-base-icon-close-circular-button-symbol"></i>
                                         </span>
                                         <ul className="navigation clearfix">
-                                            <li className="active"> <Link to='/'> Home</Link> </li>
-                                            <li className="dropdown">
-                                                <a href="#">Pages</a>
-                                                <ul>
-                                                    <li><Link to="/about-us">About Us </Link></li>
-                                                    <li> <Link to='/services'> Services</Link> </li>
-                                                    <li><a href="#">Blogs</a></li>
-                                                    <li><a href="#">Our Team Member</a></li>
-                                                    <li><a href="#">Team Member Detail</a></li>
-                                                </ul>
+                                            <li> 
+                                                <NavLink 
+                                                    to='/' 
+                                                    className={({isActive}) => (isActive ? "active" : "")}> Home
+                                                </NavLink> 
                                             </li>
-                                            <li> <Link to='/services' > Services </Link> </li>
+                                            <li> 
+                                                <NavLink 
+                                                    to="/about-us" 
+                                                    className={({isActive}) => (isActive ? "active" : "")}>About Us 
+                                                </NavLink> 
+                                            </li>
+                                            <li> 
+                                                <NavLink 
+                                                    to="/blogs" 
+                                                    className={({isActive}) => (isActive ? "active" : "")}> Blogs 
+                                                </NavLink> 
+                                            </li>
+                                            <li> 
+                                                <NavLink 
+                                                    to='/services' 
+                                                    className={({isActive}) => (isActive ? "active" : "")}> Services 
+                                                </NavLink> 
+                                            </li>
                                             <li className="dropdown">
                                                 <a href="#">Products</a>
                                                 <ul>
-                                                    <li> <Link to='/iroko'>Iroko Drink</Link> </li>
-                                                    <li> <Link to="/pure-virgin">Pure Virgin</Link> </li>
+                                                    <li> <NavLink to='/iroko' className={({isActive}) => (isActive ? "active" : "")}>Iroko Drink</NavLink> </li>
+                                                    <li> <NavLink to="/pure-virgin" className={({isActive}) => (isActive ? "active" : "")}>Pure Virgin</NavLink> </li>
                                                 </ul>
                                             </li>
-                                            <li> <Link to='/contact-us'> Contact Us</Link> </li>
+                                            <li> <NavLink to='/contact-us' className={({isActive}) => (isActive ? "active" : "")}> Contact Us</NavLink> </li>
                                         </ul>
                                     </div>
                                 </div>
                                 </nav>
                             </div>
                             <div className="pbmit-right-box d-flex align-items-center">
-                                <div className="pbmit-header-search-btn">
+                                {/* <div className="pbmit-header-search-btn">
                                     <a href="#"><i className=" pbmit-base-icon-search-1"></i></a>
-                                </div>
+                                </div> */}
                                 <div className="pbmit-button-box">
                                     <div className="pbmit-header-button">
                                         <div className="pbmit-svg-btn pbmit-ihbox-btn">
-                                            <Link to='/chat' className="pbmit-btn pbmit-btn-outline">
+                                            <a href='https://myigoglobal.com/' className="pbmit-btn pbmit-btn-outline" target='blank' rel='noopener'>
                                                 <span className="pbmit-header-button-text">
-                                                    Igo chatbot 🤗
+                                                    Sign Up ➡
                                                     <svg className="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
                                                     <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
                                                     <line x1="1.2" y1="1" x2="18" y2="1"></line>
                                                     <line x1="18" y1="17.8" x2="18" y2="1"></line>
                                                     </svg>
                                                 </span>
-                                            </Link>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>

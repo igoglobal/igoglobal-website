@@ -3169,10 +3169,14 @@
 	background-image: url(../img/title/about.avif);
 }
 .iroko{
-	background-image: url(../img/slider/slider-1.avif);
+	/* background-image: url(../img/slider/slider-1.avif); */
+	background-image: url(../img/title/iroko.avif);
 }
 .pvirgin{
 	background-image: url(../img/title/pvirgin.avif);
+}
+.blog{
+	background-image: url(../img/title/blog.avif);
 }
 .pbmit-title-bar-wrapper:before{
 	content: "";
@@ -3184,6 +3188,7 @@
     height: 100%;
     background-image: none!important;
 }
+
 .pbmit-title-bar-wrapper:after{
 	position: absolute;
     content: "";

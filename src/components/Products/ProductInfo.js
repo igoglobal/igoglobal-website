@@ -1,4 +1,4 @@
-import ProductNav from "./ProductNav";
+import ItemNav from "../../core/utils/ItemNav";
 
 function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3, benefits, b1, b2, b3, b4, b5, linkPrev, linkNext, titlePrev, titleNext}) {
     return (
@@ -123,8 +123,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                     </div>
                 </div>
             </div>
-
-            <ProductNav 
+            <ItemNav 
                 linkPrev={linkPrev} linkNext={linkNext} titlePrev={titlePrev} titleNext={titleNext}
             />
         </>

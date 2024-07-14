@@ -7,15 +7,17 @@ function Solution () {
                         <div className="row">
                             <div className="col-md-6">
                                 <div className="about-three_img1">
-                                    <div className="pbmit-animation-style4">
-                                        <img src="images/homepage-03/about-img-02.jpg" className="img-fluid" alt=""></img>
+                                    {/* <div className="pbmit-animation-style4"> */}
+                                    <div className="">
+                                        <img src="./assets/img/solution.avif" className="img-fluid" alt="ty"></img>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-md-6">
                                 <div className="about-three_img2">
-                                    <div className="pbmit-animation-style3">
-                                        <img src="images/homepage-03/about-img-01.jpg" className="img-fluid" alt=""></img>
+                                    {/* <div className="pbmit-animation-style3"> */}
+                                    <div className="">
+                                        <img src="./assets/img/happyman.avif" className="img-fluid" alt="tu"></img>
                                     </div>
                                 </div>
                             </div>

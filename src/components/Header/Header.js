@@ -7,7 +7,7 @@ function Header () {
     const location = useLocation();
     const isNotHomePage = location.pathname !== "/contact-us" && location.pathname !== "/services" 
             && location.pathname !== "/iroko" && location.pathname !== "/pure-virgin"
-            && location.pathname !== "/about-us";
+            && location.pathname !== "/about-us" && location.pathname !== "/blogs";
     
     return (
         <header className="site-header header-style-1">

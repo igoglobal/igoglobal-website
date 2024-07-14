@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Swiper ({img, minTitle, title, subTitle, text, subText}) {
     return (
         <div className="swiper-slide">
@@ -16,7 +18,7 @@ function Swiper ({img, minTitle, title, subTitle, text, subText}) {
                                     {text} <br></br> {subText}.
                                 </div>
                                 <div className="transform-bottom transform-delay-4">
-                                    <a href="../pages/Contact/contact-us" className="pbmit-btn pbmit-btn-white">
+                                    <Link to="/contact-us" className="pbmit-btn pbmit-btn-white">
                                         <span className="pbmit-header-button-text">
                                             Contact Us 
                                             <svg className="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
@@ -25,7 +27,7 @@ function Swiper ({img, minTitle, title, subTitle, text, subText}) {
                                             <line x1="18" y1="17.8" x2="18" y2="1"></line>
                                             </svg>
                                         </span>
-                                    </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
