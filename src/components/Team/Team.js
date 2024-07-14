@@ -34,7 +34,7 @@ function Team () {
                                 img=""
                             />
                             <Member 
-                                title="Director of Account"
+                                title="Director of Finance"
                                 name="Nathaniel Jimmy"
                                 img="nath.jpg"
                             />

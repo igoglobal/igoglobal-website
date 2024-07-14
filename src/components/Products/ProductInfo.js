@@ -28,6 +28,9 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                         <div className="pbmit-heading-subheading animation-style2">
                             <h3 className="pbmit-title">01. Description :</h3>
                         </div>
+                        <div>
+                            <img src="./assets/img/product/desc.webp" style={{width: "60%"}}></img>
+                        </div>
                     </div>
                     <div className="col-md-12 col-xl-7">
                         <p>In the pursuit of optimal health and wellness, people are increasingly turning to natural remedies that have stood the test of time. Among these, the Iroko African Root stands out as a powerful blend of traditional medicinal plants known for their extensive health benefits. Sourced from the rich and diverse flora of Africa, the Iroko African Root is a unique combination of the <strong><span className="pbmit-underline"><u>Iroko Tree, Mahogany, Zingiber Officinale (Ginger), Clove, and Hunteria Umbellata</u></span></strong>. Each component contributes a myriad of health-promoting properties, making Iroko African Root a comprehensive solution for various health issues.</p>
@@ -60,6 +63,9 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                             <div className="pbmit-heading-subheading animation-style2">
                                 <h3 className="pbmit-title">02. Incredible Benefits of Iroko :</h3>
                             </div>
+                            <div>
+                                <img src="./assets/img/product/benefit.avif" style={{width: "80%"}}></img>
+                            </div>
                         </div>
                         <div className="col-md-12 col-xl-7">
                             <p> {benefits}
@@ -90,23 +96,6 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                     <span className="pbmit-icon-list-text">{b4}</span>
                                 </li>
                             </ul>
-                            <div className="pbmit-ihbox-style-4">
-                                <div className="pbmit-ihbox-icon">
-                                    <div className="pbmit-ihbox-icon-wrapper">
-                                        <div className="pbmit-icon-wrapper pbmit-icon-type-icon">
-                                            <i className="pbmit-capigo-icon pbmit-capigo-icon-quote"></i>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="pbmit-ihbox-contents">
-                                    <h2 className="pbmit-element-title">
-                                        {b5} 
-                                    </h2>
-                                    <h4 className="pbmit-element-subtitle">
-                                        - Satisfied Client
-                                    </h4>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -115,6 +104,9 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                         <div className="col-md-12 col-xl-5">
                             <div className="pbmit-heading-subheading animation-style2">
                                 <h3 className="pbmit-title">03. Ingredients :</h3>
+                            </div>
+                            <div>
+                                <img src="./assets/img/product/recipe.avif" style={{width: "80%"}}></img>
                             </div>
                         </div>
                         <div className="col-md-12 col-xl-7">

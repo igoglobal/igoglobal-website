@@ -17,9 +17,7 @@ function PureVirgin () {
                 b2="The unique formulation of Pure Virgin helps tighten and cleanse the vaginal area. The natural tightening properties of Cam Wood combined with the cleansing effects of Aloe Vera and Cocoa Pod Soup ensure optimal vaginal health and hygiene"
                 b3="Beyond addressing physical symptoms, Pure Virgin helps revitalize libido. The natural ingredients work synergistically to restore confidence and vitality, enhancing overall well-being and sexual health"
                 b4="Pure Virgin promotes optimal hygiene and freshness, ensuring that women feel comfortable and confident throughout the day. The antiseptic and moisturizing properties keep the vaginal area clean, hydrated, and free from infections."
-                b5="“It’s good to have money and the things that money can buy, but 
-                it’s good,to  check up once in a while and make sure that."
-                
+                                
                 linkPrev="iroko" linkNext="#" titlePrev="Iroko" titleNext="Nil"
             />
         </article>

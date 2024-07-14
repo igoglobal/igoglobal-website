@@ -18,8 +18,6 @@ function Iroko () {
                 b2="Iroko African Root promotes holistic health, supporting multiple bodily systems and enhancing overall well-being"
                 b3="The components of Iroko African Root have been used for centuries in traditional medicine, backed by generations of empirical knowledge and experience"
                 b4="With Hunteria Umbellata’s anti-cancer properties, Iroko African Root offers a natural defense against cancer, contributing to long-term health"
-                b5="“It’s good to have money and the things that money can buy, but 
-                it’s good,to  check up once in a while and make sure that."
                 
                 linkPrev="#" linkNext="pure-virgin" titlePrev="Nil" titleNext="Pure Virgin"
             />
