@@ -49,8 +49,8 @@ function Team () {
                                 img="eniola.png"
                             />
                             <Member 
-                                title="Marketing Lead"
-                                name="Kelvin"
+                                title="Marketing Manager"
+                                name="Nnamani Kelvin O."
                                 img=""
                             />
                         </div>	

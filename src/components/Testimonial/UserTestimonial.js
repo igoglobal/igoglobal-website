@@ -1,4 +1,4 @@
-function UserTestimonial ({imageUrl, username, clientType, comment}) {
+function UserTestimonial ({img, username, clientType, comment}) {
     return (
         <article className="pbmit-testimonial-style-1 swiper-slide">
             <div className="pbminfotech-post-item">
@@ -7,7 +7,7 @@ function UserTestimonial ({imageUrl, username, clientType, comment}) {
                         <div className="pbminfotech-box-wapper">
                             <div className="pbmit-featured-img-wrapper">
                                 <div className="pbmit-featured-wrapper">
-                                    <img src={imageUrl} className="img-fluid" alt=""></img>
+                                    <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img}`} className="img-fluid" alt=""></img>
                                 </div>
                             </div>
                             <div className="pbminfotech-box-author">
