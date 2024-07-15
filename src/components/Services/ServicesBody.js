@@ -67,6 +67,11 @@ function ServicesBody () {
                 <p>Our housing plans are the best to get you started on getting your first property</p>
                 <p>Our range of products is carefully crafted to cater to specific needs in various consumer markets, while our business opportunity is designed to empower you to create the lifestyle you desire, tailored to your preferences.</p>
                 <p>With a focus on your individual needs, our leadership has set out to create a company that stands out, whether you're a customer or a distributor. This commitment to customization drives everything we do, shaping our present and future endeavors.</p>
+
+                <ImageSection 
+                    img1="home.avif"
+                    img2="apartment.avif"
+                />
                 
             </div>
         </>

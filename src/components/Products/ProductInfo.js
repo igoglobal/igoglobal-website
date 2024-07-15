@@ -1,6 +1,6 @@
 import ItemNav from "../../core/utils/ItemNav";
 
-function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3, benefits, b1, b2, b3, b4, b5, linkPrev, linkNext, titlePrev, titleNext}) {
+function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3, benefits, b1, b2, b3, b4, prodImg, linkPrev, linkNext, titlePrev, titleNext}) {
     return (
         <>
             <div className="pbmit-featured-img-wrapper">
@@ -29,7 +29,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                             <h3 className="pbmit-title">01. Description :</h3>
                         </div>
                         <div>
-                            <img src="./assets/img/product/desc.webp" style={{width: "60%"}}></img>
+                            <img src={`./assets/img/product/${prodImg}`} style={{width: "70%"}}></img>
                         </div>
                     </div>
                     <div className="col-md-12 col-xl-7">

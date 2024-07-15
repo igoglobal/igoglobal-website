@@ -1,17 +1,20 @@
+function ImgHolder ({title="", img}) {
+    return (
+        <aside className="widget">
+            {title && <h2 className="widget-title">{title}</h2>}
+            <div className="widget-image">
+                <img src={`./assets/img/service/${img}`} style={{width: "100%"}}></img>
+            </div>
+        </aside>
+    )
+}
+
 function SidebarImg () {
     return (
         <>
-            <aside className="widget">
-                <h2 className="widget-title">Best Services</h2>
-                <div className="widget-image">
-                    <img src="./assets/img/service/slide.avif" style={{width: "100%"}}></img>
-                </div>
-            </aside>
-            <aside className="widget">
-                <div className="widget-image" >
-                    <img src="./assets/img/service/lightdown.avif" style={{width: "100%"}}></img>
-                </div>
-            </aside>
+            <ImgHolder title="Best Services" img="slide.avif" />
+            <ImgHolder img="lightdown.avif" />
+            <ImgHolder img="question.png" />
         </>
     )
 }
