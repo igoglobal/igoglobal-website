@@ -22,7 +22,7 @@ function ProcessStep ({no, title, desc, step1, step2, img}) {
                 <div className="pbmit-card-box-img col-lg-6 col-md-12">
                     <div className="pbmit-card-box-item-image">
                         <img 
-                            src={`/assets/img/process/${img}`} 
+                            src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img}`} 
                             alt=""
                         />
                     </div>

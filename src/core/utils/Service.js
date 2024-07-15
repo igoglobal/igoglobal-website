@@ -45,7 +45,7 @@ function Service () {
                                 <div className="pbminfotech-service-content">
                                     <div className="pbmit-featured-img-wrapper">
                                         <div className="pbmit-featured-wrapper">
-                                            <img src="/assets/img/service/wellness.avif" className="img-fluid" alt=""></img>
+                                            <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/wellness.avif" className="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div className="pbminfotech-box-content">
@@ -68,7 +68,7 @@ function Service () {
                                 <div className="pbminfotech-service-content">
                                     <div className="pbmit-featured-img-wrapper">
                                         <div className="pbmit-featured-wrapper">
-                                            <img src="/assets/img/service/home.avif" className="img-fluid" alt=""></img>
+                                            <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/home.avif" className="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div className="pbminfotech-box-content">
@@ -91,7 +91,7 @@ function Service () {
                                 <div className="pbminfotech-service-content">
                                     <div className="pbmit-featured-img-wrapper">
                                         <div className="pbmit-featured-wrapper">
-                                            <img src="/assets/img/service/education.avif" className="img-fluid" alt=""></img>
+                                            <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/education.avif" className="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div className="pbminfotech-box-content">
@@ -114,7 +114,7 @@ function Service () {
                                 <div className="pbminfotech-service-content">
                                     <div className="pbmit-featured-img-wrapper">
                                         <div className="pbmit-featured-wrapper">
-                                            <img src="/assets/img/service/technology.avif" className="img-fluid" alt=""></img>
+                                            <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/technology.avif" className="img-fluid" alt=""></img>
                                         </div>
                                     </div>
                                     <div className="pbminfotech-box-content">

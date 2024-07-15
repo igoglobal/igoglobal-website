@@ -32,9 +32,9 @@ function Details () {
                     <div className="pbmit-blog-meta-bottom">
                         <div className="pbmit-blog-meta-bottom-left">
                             <span className="pbmit-meta-tags">
-                                <a href="blog-classNameic.html" rel="tag">Investing</a>
-                                <a href="blog-classNameic.html" rel="tag">Investors</a>
-                                <a href="blog-classNameic.html" rel="tag">Payment</a>
+                                <a href="#" rel="tag">Investing</a>
+                                <a href="#" rel="tag">Investors</a>
+                                <a href="#" rel="tag">Payment</a>
                             </span>
                         </div>
                     </div>

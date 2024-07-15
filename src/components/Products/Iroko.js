@@ -9,6 +9,7 @@ function Iroko () {
                 p2="Iroko African Root is a unique and powerful blend of traditional medicinal plants, each contributing a range of health benefits. Here’s why you should consider adding Iroko African Root to your wellness regimen" 
                 p3="Iroko African Root stands as a testament to the power of nature in promoting health and wellness. With its rich blend of the Iroko Tree, Mahogany, Zingiber Officinale (Ginger), Clove, and Hunteria Umbellata, it offers a comprehensive solution to a wide range of health issues. Whether you seek to prevent infections, reduce inflammation, support digestive health, or enhance respiratory function, Iroko African Root is your natural remedy of choice. Embrace the holistic benefits of Iroko African Root and experience the profound impact of nature’s healing power on your health and well-being"
                 
+            
                 img1="irk1.avif" img2="irk3.avif" img3="irk2.avif"
                 
                 benefits="The Iroko Tree, often revered in African folklore for its strength and longevity, brings several health benefits to the Iroko African Root blend. It is renowned for its antimicrobial properties, effectively combating bacteria, fungi, and viruses. 

@@ -6,7 +6,7 @@ function Swiper ({img, minTitle, title, subTitle, text, subText}) {
             <div className="pbmit-slider-item">
                 <div 
                     className="pbmit-slider-bg" 
-                    style={{backgroundImage: `url(assets/img/slider/${img})`}}>
+                    style={{backgroundImage: `url(https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img})`}}>
                 </div>
                 <div className="container">
                     <div className="row">

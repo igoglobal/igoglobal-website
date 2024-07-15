@@ -10,9 +10,9 @@ function Solution () {
                     {/* <div className="pbmit-animation-style4"> */}
                     <div className="">
                       <img
-                        src="./assets/img/solution.avif"
+                        src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/solution.avif"
                         className="img-fluid"
-                        alt="ty"
+                        alt=""
                       ></img>
                     </div>
                   </div>
@@ -24,7 +24,7 @@ function Solution () {
                       <img
                         src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/happyman.avif"
                         className="img-fluid"
-                        alt="tu"
+                        alt=""
                       ></img>
                     </div>
                   </div>
@@ -89,18 +89,6 @@ function Solution () {
                       </div>
                     </div>
                   </div>
-                  {/* <a className="pbmit-btn" href="about-us.html">
-                                    <span className="pbmit-button-content-wrapper">
-                                        <span className="pbmit-button-icon pbmit-align-icon-right">
-                                            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" className="pbmit-svg-arrow" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
-                                                <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
-                                                <line x1="1.2" y1="1" x2="18" y2="1"></line>
-                                                <line x1="18" y1="17.8" x2="18" y2="1"></line>
-                                            </svg>
-                                        </span>
-                                        <span className="pbmit-button-text">Learn More</span>
-                                    </span>
-                                </a>  */}
                 </div>
               </div>
             </div>

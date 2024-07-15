@@ -4,7 +4,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
     return (
         <>
             <div className="pbmit-featured-img-wrapper">
-                <img src={`/assets/img/product/${img}`} className="img-fluid w-100" alt=""></img>
+                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img}`} className="img-fluid w-100" alt=""></img>
             </div>
             <div className="pbmit-single-project-details-list">
                 <ul className="pbmit-portfolio-lines-ul">
@@ -42,17 +42,17 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                     <div className="row">
                         <div className="col-md-4">
                             <div className="pbmit-animation-style1 active">
-                                <img src={`/assets/img/product/${img1}`} className="img-fluid" alt="iroko"></img>
+                                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img1}`} className="img-fluid" alt="iroko"></img>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="pbmit-animation-style4 active">
-                                <img src={`/assets/img/product/${img2}`} className="img-fluid" alt=""></img>
+                                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img2}`} className="img-fluid" alt=""></img>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="pbmit-animation-style2 active">
-                                <img src={`/assets/img/product/${img3}`} className="img-fluid" alt=""></img>
+                                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img3}`} className="img-fluid" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                 <h3 className="pbmit-title">02. Incredible Benefits of Iroko :</h3>
                             </div>
                             <div>
-                                <img src="./assets/img/product/benefit.avif" style={{width: "80%"}}></img>
+                                <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/benefit.avif" style={{width: "80%"}}></img>
                             </div>
                         </div>
                         <div className="col-md-12 col-xl-7">
@@ -106,7 +106,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                 <h3 className="pbmit-title">03. Ingredients :</h3>
                             </div>
                             <div>
-                                <img src="./assets/img/product/recipe.avif" style={{width: "80%"}}></img>
+                                <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/recipe.avif" style={{width: "80%"}}></img>
                             </div>
                         </div>
                         <div className="col-md-12 col-xl-7">

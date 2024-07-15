@@ -38,7 +38,7 @@ function About () {
                     </div>
                 </div>
                 <div className="col-md-9 col-xl-5">
-                    <img src="/assets/img/black-girl.avif" className="img-fluid" alt=""></img>
+                    <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/black-girl.avif" className="img-fluid" alt=""></img>
                 </div>
                 <div className="col-md-12 col-xl-5">
                     <div className="about-us-one-content">
