@@ -36,7 +36,7 @@ function Solution () {
                 <div className="pbmit-heading-subheading animation-style2">
                   <h4 className="pbmit-subtitle">igoglobal helps</h4>
                   <h2 className="pbmit-title">
-                    provide the best health and wellness products
+                    Provide the best health and wellness products
                   </h2>
                 </div>
                 <div className="about-us-three-content">
