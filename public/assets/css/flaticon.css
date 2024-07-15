@@ -1,0 +1,261 @@
+@font-face {
+	font-family: "flaticon";
+	src: url("../fonts/flaticon.ttf?7570edc53adf4a8945d8b15fdd594174") format("truetype"),
+url("../fonts/flaticon.woff?7570edc53adf4a8945d8b15fdd594174") format("woff"),
+url("../fonts/flaticon.woff2?7570edc53adf4a8945d8b15fdd594174") format("woff2"),
+url("../fonts/flaticon.eot?7570edc53adf4a8945d8b15fdd594174#iefix") format("embedded-opentype"),
+url("../fonts/flaticon.svg?7570edc53adf4a8945d8b15fdd594174#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, 
+i[class*="pbmit-capigo-icon-"]:before {
+	font-family: "flaticon" !important;
+	font-style: normal;
+	font-weight: normal !important;
+	font-variant: normal;
+	text-transform: none;
+	line-height: normal;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.pbmit-capigo-icon-hand:before {
+	content: "\f101";
+}
+.pbmit-capigo-icon-head:before {
+	content: "\f102";
+}
+.pbmit-capigo-icon-investment:before {
+	content: "\f103";
+}
+.pbmit-capigo-icon-umbrella:before {
+	content: "\f104";
+}
+.pbmit-capigo-icon-saving:before {
+	content: "\f105";
+}
+.pbmit-capigo-icon-dollar-coin:before {
+	content: "\f106";
+}
+.pbmit-capigo-icon-idea:before {
+	content: "\f107";
+}
+.pbmit-capigo-icon-saving-1:before {
+	content: "\f108";
+}
+.pbmit-capigo-icon-coins:before {
+	content: "\f109";
+}
+.pbmit-capigo-icon-coin:before {
+	content: "\f10a";
+}
+.pbmit-capigo-icon-tag:before {
+	content: "\f10b";
+}
+.pbmit-capigo-icon-shield:before {
+	content: "\f10c";
+}
+.pbmit-capigo-icon-credit-card:before {
+	content: "\f10d";
+}
+.pbmit-capigo-icon-book:before {
+	content: "\f10e";
+}
+.pbmit-capigo-icon-chat:before {
+	content: "\f10f";
+}
+.pbmit-capigo-icon-pencil:before {
+	content: "\f110";
+}
+.pbmit-capigo-icon-presentation:before {
+	content: "\f111";
+}
+.pbmit-capigo-icon-bitcoin:before {
+	content: "\f112";
+}
+.pbmit-capigo-icon-dustbin:before {
+	content: "\f113";
+}
+.pbmit-capigo-icon-exchange:before {
+	content: "\f114";
+}
+.pbmit-capigo-icon-money-bag:before {
+	content: "\f115";
+}
+.pbmit-capigo-icon-tax:before {
+	content: "\f116";
+}
+.pbmit-capigo-icon-medal:before {
+	content: "\f117";
+}
+.pbmit-capigo-icon-wallet:before {
+	content: "\f118";
+}
+.pbmit-capigo-icon-pie-chart:before {
+	content: "\f119";
+}
+.pbmit-capigo-icon-book-1:before {
+	content: "\f11a";
+}
+.pbmit-capigo-icon-web-cam:before {
+	content: "\f11b";
+}
+.pbmit-capigo-icon-email:before {
+	content: "\f11c";
+}
+.pbmit-capigo-icon-document:before {
+	content: "\f11d";
+}
+.pbmit-capigo-icon-location:before {
+	content: "\f11e";
+}
+.pbmit-capigo-icon-world:before {
+	content: "\f11f";
+}
+.pbmit-capigo-icon-startup:before {
+	content: "\f120";
+}
+.pbmit-capigo-icon-man:before {
+	content: "\f121";
+}
+.pbmit-capigo-icon-bank:before {
+	content: "\f122";
+}
+.pbmit-capigo-icon-plant-pot:before {
+	content: "\f123";
+}
+.pbmit-capigo-icon-setting:before {
+	content: "\f124";
+}
+.pbmit-capigo-icon-call-center:before {
+	content: "\f125";
+}
+.pbmit-capigo-icon-user:before {
+	content: "\f126";
+}
+.pbmit-capigo-icon-pie-chart-1:before {
+	content: "\f127";
+}
+.pbmit-capigo-icon-setting-1:before {
+	content: "\f128";
+}
+.pbmit-capigo-icon-hand-1:before {
+	content: "\f129";
+}
+.pbmit-capigo-icon-online-banking:before {
+	content: "\f12a";
+}
+.pbmit-capigo-icon-head-1:before {
+	content: "\f12b";
+}
+.pbmit-capigo-icon-globe:before {
+	content: "\f12c";
+}
+.pbmit-capigo-icon-certificate:before {
+	content: "\f12d";
+}
+.pbmit-capigo-icon-clipboard:before {
+	content: "\f12e";
+}
+.pbmit-capigo-icon-think:before {
+	content: "\f12f";
+}
+.pbmit-capigo-icon-global:before {
+	content: "\f130";
+}
+.pbmit-capigo-icon-global-network:before {
+	content: "\f131";
+}
+.pbmit-capigo-icon-video-call:before {
+	content: "\f132";
+}
+.pbmit-capigo-icon-light-bulb:before {
+	content: "\f133";
+}
+.pbmit-capigo-icon-paper:before {
+	content: "\f134";
+}
+.pbmit-capigo-icon-team:before {
+	content: "\f135";
+}
+.pbmit-capigo-icon-magnifying-glass:before {
+	content: "\f136";
+}
+.pbmit-capigo-icon-profile-picture:before {
+	content: "\f137";
+}
+.pbmit-capigo-icon-network:before {
+	content: "\f138";
+}
+.pbmit-capigo-icon-video-call-1:before {
+	content: "\f139";
+}
+.pbmit-capigo-icon-energy:before {
+	content: "\f13a";
+}
+.pbmit-capigo-icon-shield-1:before {
+	content: "\f13b";
+}
+.pbmit-capigo-icon-pie-graph:before {
+	content: "\f13c";
+}
+.pbmit-capigo-icon-laptop:before {
+	content: "\f13d";
+}
+.pbmit-capigo-icon-trophy:before {
+	content: "\f13e";
+}
+.pbmit-capigo-icon-paper-1:before {
+	content: "\f13f";
+}
+.pbmit-capigo-icon-support:before {
+	content: "\f140";
+}
+.pbmit-capigo-icon-business-trip:before {
+	content: "\f141";
+}
+.pbmit-capigo-icon-gold-bars:before {
+	content: "\f142";
+}
+.pbmit-capigo-icon-rocket:before {
+	content: "\f143";
+}
+.pbmit-capigo-icon-laptop-1:before {
+	content: "\f144";
+}
+.pbmit-capigo-icon-left-arrow:before {
+	content: "\f145";
+}
+.pbmit-capigo-icon-right-arrow:before {
+	content: "\f146";
+}
+.pbmit-capigo-icon-quote:before {
+	content: "\f147";
+}
+.pbmit-capigo-icon-up-arrow:before {
+	content: "\f148";
+}
+.pbmit-capigo-icon-thin-download-arrow:before {
+	content: "\f149";
+}
+.pbmit-capigo-icon-tick:before {
+	content: "\f14a";
+}
+.pbmit-capigo-icon-laptop-screen:before {
+	content: "\f14b";
+}
+.pbmit-capigo-icon-email-1:before {
+	content: "\f14c";
+}
+.pbmit-capigo-icon-location-1:before {
+	content: "\f14d";
+}
+.pbmit-capigo-icon-phone-call:before {
+	content: "\f14e";
+}
+.pbmit-capigo-icon-calendar:before {
+	content: "\f14f";
+}
+.pbmit-capigo-icon-bar-chart:before {
+	content: "\f150";
+}
