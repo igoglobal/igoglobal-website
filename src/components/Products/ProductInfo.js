@@ -61,7 +61,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                     <div className="row">
                         <div className="col-md-12 col-xl-5">
                             <div className="pbmit-heading-subheading animation-style2">
-                                <h3 className="pbmit-title">02. Incredible Benefits of Iroko :</h3>
+                                <h3 className="pbmit-title">02. Benefits of {title} :</h3>
                             </div>
                             <div>
                                 <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/benefit.avif" style={{width: "80%"}}></img>

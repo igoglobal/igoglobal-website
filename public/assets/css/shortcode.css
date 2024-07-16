@@ -3166,17 +3166,16 @@
 	background-image: url(../img/title/partners.jpg);
 }
 .about{
-	background-image: url(../img/title/about.avif);
+	background-image: url("https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/iroko.avif");
 }
 .iroko{
-	/* background-image: url(../img/slider/slider-1.avif); */
-	background-image: url(../img/title/iroko.avif);
+	background-image: url("https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/iroko.avif");
 }
 .pvirgin{
-	background-image: url(../img/title/pvirgin.avif);
+	background-image: url("https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/pvirgin.avif");
 }
 .blog{
-	background-image: url(../img/title/blog.avif);
+	background-image: url("https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/blog.avif");
 }
 .pbmit-title-bar-wrapper:before{
 	content: "";

@@ -27,7 +27,7 @@ function About () {
                         </div>
                         <div className="pbminfotech-ele-fid-style-7">
                             <div className="pbmit-fld-contents">
-                                <h3 className="pbmit-fid-title">Usefull Programs</h3>
+                                <h3 className="pbmit-fid-title">Useful Programs</h3>
                                 <h4 className="pbmit-fid-inner">
                                     <span className="pbmit-fid"></span>
                                     <span className="pbmit-number-rotate numinate" data-appear-animation="animateDigits" data-from="0" data-to="6" data-interval="5" data-before="" data-before-style="" data-after="" data-after-style="">6</span>
