@@ -26,7 +26,7 @@ function Team () {
                             <Member 
                                 title="Managing Director"
                                 name="Grace Etukinyang"
-                                img="grace.jpg"
+                                img="grace.png"
                             />
                             <Member 
                                 title="Director of IT"
@@ -41,7 +41,7 @@ function Team () {
                             <Member 
                                 title="Head of IT Operations"
                                 name="Victor Otubure"
-                                img="talented_vicky.jpg"
+                                img="vicky.png"
                             />
                             <Member 
                                 title="Head of Design"

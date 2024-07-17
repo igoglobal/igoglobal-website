@@ -1,6 +1,6 @@
 import ItemNav from "../../core/utils/ItemNav";
 
-function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3, benefits, b1, b2, b3, b4, prodImg, linkPrev, linkNext, titlePrev, titleNext}) {
+function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3, defImg, benefitImg, ingImg, benefits, b1, b2, b3, b4, prodImg, linkPrev, linkNext, titlePrev, titleNext}) {
     return (
         <>
             <div className="pbmit-featured-img-wrapper">
@@ -29,7 +29,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                             <h3 className="pbmit-title">01. Description :</h3>
                         </div>
                         <div>
-                            <img src={`./assets/img/product/${prodImg}`} style={{width: "70%"}}></img>
+                            <img src={`./assets/img/product/${defImg}`} style={{width: "70%"}}></img>
                         </div>
                     </div>
                     <div className="col-md-12 col-xl-7">
@@ -42,17 +42,17 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                     <div className="row">
                         <div className="col-md-4">
                             <div className="pbmit-animation-style1 active">
-                                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img1}`} className="img-fluid" alt="iroko"></img>
+                                <img src={`./assets/img/product/${img1}`} className="img-fluid" alt="iroko"></img>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="pbmit-animation-style4 active">
-                                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img2}`} className="img-fluid" alt=""></img>
+                                <img src={`./assets/img/product/${img2}`} className="img-fluid" alt=""></img>
                             </div>
                         </div>
                         <div className="col-md-4">
                             <div className="pbmit-animation-style2 active">
-                                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img3}`} className="img-fluid" alt=""></img>
+                                <img src={`./assets/img/product/${img3}`} className="img-fluid" alt=""></img>
                             </div>
                         </div>
                     </div>
@@ -64,7 +64,8 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                 <h3 className="pbmit-title">02. Benefits of {title} :</h3>
                             </div>
                             <div>
-                                <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/benefit.avif" style={{width: "80%"}}></img>
+                                {/* <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/benefit.avif" style={{width: "80%"}}></img> */}
+                                <img src={`./assets/img/product/${benefitImg}`} style={{width: "80%"}}></img>
                             </div>
                         </div>
                         <div className="col-md-12 col-xl-7">
@@ -106,7 +107,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                 <h3 className="pbmit-title">03. Ingredients :</h3>
                             </div>
                             <div>
-                                <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/recipe.avif" style={{width: "80%"}}></img>
+                                <img src={`./assets/img/product/${ingImg}`} style={{width: "80%"}}></img>
                             </div>
                         </div>
                         <div className="col-md-12 col-xl-7">
