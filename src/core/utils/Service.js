@@ -19,7 +19,10 @@ function Service () {
                 <div className="swiper-slider" data-arrows-class="service-one-arrow" data-loop="true" data-autoplay="true" data-dots="false" data-arrows="true" data-columns="3.2" data-margin="30" data-effect="slide">
                     <div className="swiper-wrapper">
                         <ServiceSlide 
-                            img="happy.avif" title="Health"
+                            customImg={true}
+                            img="./assets/img/service/hap1.avif"
+                            // img="happy.avif" 
+                            title="Health"
                             desc="Comprehensive health support for your well-being."
                         />
                         <ServiceSlide 
