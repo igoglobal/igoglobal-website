@@ -26,12 +26,12 @@ function Team () {
                             <Member 
                                 title="Managing Director"
                                 name="Grace Etukinyang"
-                                img="grace.jpg"
+                                img="grace.png"
                             />
                             <Member 
                                 title="Director of IT"
                                 name="Emmanuel Akpan"
-                                img=""
+                                img="emma.png"
                             />
                             <Member 
                                 title="Director of Finance"
@@ -41,7 +41,7 @@ function Team () {
                             <Member 
                                 title="Head of IT Operations"
                                 name="Victor Otubure"
-                                img="talented_vicky.jpg"
+                                img="vicky.png"
                             />
                             <Member 
                                 title="Head of Design"
@@ -51,7 +51,7 @@ function Team () {
                             <Member 
                                 title="Marketing Manager"
                                 name="Nnamani Kelvin O."
-                                img=""
+                                img="kelvin.png"
                             />
                         </div>	
                     </div>

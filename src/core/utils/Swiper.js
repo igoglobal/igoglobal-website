@@ -1,12 +1,12 @@
 import { Link } from "react-router-dom";
 
-function Swiper ({img, minTitle, title, subTitle, text, subText}) {
+function Swiper ({img, minTitle, title, subTitle, text, subText, customImg=false}) {
     return (
         <div className="swiper-slide">
             <div className="pbmit-slider-item">
                 <div 
                     className="pbmit-slider-bg" 
-                    style={{backgroundImage: `url(https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img})`}}>
+                    style={{backgroundImage: customImg ? `url(${img})` : `url(https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img})`}}>
                 </div>
                 <div className="container">
                     <div className="row">

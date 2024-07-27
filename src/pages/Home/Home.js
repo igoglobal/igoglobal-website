@@ -9,17 +9,19 @@ import SearchBox from "../../components/Home/SearchBox";
 import AboutSection from "../../core/utils/AboutSection";
 import Service from "../../core/utils/Service";
 import Team from "../../components/Team/Team";
+import useLoader from "../../core/hooks/useLoader";
 
+
+function Loader () {
+    return (
+        <div className="loader">
+            <div className="loader-line"></div>
+        </div>
+    )
+}
 
 function Home () {    
-    // // pop up dialogue box for chatbot
-    // useEffect(() => {
-    //     // call this function every 1 minute
-    //     setTimeout(() => {
-    //         //
-    //     }, 4000);
-    // })
-
+    const loading = useLoader()
 
     useEffect(() => {
         const isLoaded = sessionStorage.getItem("loader")
@@ -38,6 +40,25 @@ function Home () {
 
 
     return (
+        // <>
+        //     {
+        //         loading ?
+        //             <Loader />
+        //         :
+        //         <div className="page-wrapper">
+        //             <div className="page-content">
+        //                 <AboutSection/>
+        //                 <About/>
+        //                 <Service/>
+        //                 <Process/>
+        //                 <Team/>
+        //                 <Testimonial/>
+        //                 <Blog/>
+        //                 <SearchBox/>
+        //             </div>
+        //         </div>
+        //     }
+        // </>
         <div className="page-wrapper">
             <div className="page-content">
                 <AboutSection/>
