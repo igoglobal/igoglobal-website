@@ -1,16 +1,29 @@
-# build environment
-FROM node:18-alpine as react-build
-WORKDIR /app
-COPY . ./
-RUN yarn
-RUN yarn build
+# Use the official Node.js runtime as the base image
+FROM node:20-alpine AS build
 
-# server environment
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy package.json and package-lock.json to the working directory
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install
+
+# Copy the entire application code to the container
+COPY . .
+
+# Build the React app for production
+RUN npm run build
+
+# Use Nginx as the production server
 FROM nginx:alpine
-COPY nginx.conf /etc/nginx/conf.d/configfile.template
-ENV PORT 8080
-ENV HOST 0.0.0.0
-RUN sh -c "envsubst '\$PORT'  < /etc/nginx/conf.d/configfile.template > /etc/nginx/conf.d/default.conf"
-COPY --from=react-build /app/build /usr/share/nginx/html
-EXPOSE 8080
+
+# Copy the built React app to Nginx's web server directory
+COPY --from=build /app/build /usr/share/nginx/html
+
+# Expose port 80 for the Nginx server
+EXPOSE 80
+
+# Start Nginx when the container runs
 CMD ["nginx", "-g", "daemon off;"]
