@@ -13,7 +13,7 @@ function Swiper ({img, minTitle, title, subTitle, text, subText, customImg=false
                         <div className="col-md-7">
                             <div className="pbmit-slider-content">
                                 <h5 className="pbmit-sub-title transform-left transform-delay-1">{minTitle}</h5>
-                                <h2 className="pbmit-title transform-left transform-delay-2"><strong>{title}</strong> <br></br> {subTitle}. </h2>
+                                <h2 className="pbmit-title transform-left transform-delay-2"><strong>{title}</strong> <br></br> {subTitle} </h2>
                                 <div className="pbmit-desc transform-bottom transform-delay-3">
                                     {text} <br></br> {subText}.
                                 </div>
