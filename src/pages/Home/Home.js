@@ -12,13 +12,13 @@ import Team from "../../components/Team/Team";
 import useLoader from "../../core/hooks/useLoader";
 
 
-function Loader () {
-    return (
-        <div className="loader">
-            <div className="loader-line"></div>
-        </div>
-    )
-}
+// function Loader () {
+//     return (
+//         <div className="loaddiv">
+//             <div className="loadclass"></div>
+//         </div>
+//     )
+// }
 
 function Home () {    
     const loading = useLoader()

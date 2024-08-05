@@ -111,7 +111,11 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                             </div>
                         </div>
                         <div className="col-md-12 col-xl-7">
-                            <p>We have a passionate commitment to our work & to helping our clients achieve their objective. We combine unique technical <span className="pbmit-underline"><strong><u>expertise with world-className analytics</u></strong></span> . We provide room for entrepreneurial thinking and bestest grass-root innovation to achieve compelling results for both our clients’ projects & our own company. Since 1969, ICF has been been serving government at all levels, major corporations, and multilateral institutions. More than 4,500 employees serve these clients worldwide.</p>		
+                            <p>
+                                {/* We have a passionate commitment to our work & to helping our clients achieve their objective. We combine unique technical <span className="pbmit-underline"><strong><u>expertise with world-className 
+                                analytics</u></strong></span> . We provide room for entrepreneurial thinking and bestest grass-root innovation to achieve compelling results for both our clients’ projects & our own company. 
+                                Since 1969, ICF has been been serving government at all levels, major corporations, and multilateral institutions. More than 4,500 employees serve these clients worldwide. */}
+                            </p>		
                         </div>
                     </div>
                 </div>

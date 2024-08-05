@@ -9,11 +9,11 @@ function Slider () {
                         // img="slider-5.avif"
                         img="./assets/img/slider/slider-2.avif"
                         customImg={true}
-                        minTitle="Join our community"
-                        title="Find"
-                        subTitle="Happiness"
-                        text="Register &"
-                        subText="Find out more"
+                        minTitle="Meet us in-person"
+                        title="Visit us"
+                        subTitle="Ikeja-Lagos"
+                        text="go to the"
+                        subText="contact page for more"
                     />
                     <Swiper
                         customImg={true}
@@ -26,12 +26,14 @@ function Slider () {
                         subText="and redefine your health"
                     />
                     <Swiper
-                        img="slider-1.avif"
-                        minTitle="Improve your health"
-                        title="Iroko"
-                        subTitle="Drink"
-                        text="Be sure of good living"
-                        subText="to ensure logevity"
+                        customImg={true}
+                        img="/assets/img/slider/slider-1.avif"
+                        // img="slider-1.avif"
+                        minTitle="automated communication"
+                        title="Igo"
+                        subTitle="chatbot"
+                        text="Have questions?"
+                        subText="kindly talk to our igobot"
                     />
                 </div>
             </div>

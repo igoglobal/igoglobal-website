@@ -20,7 +20,7 @@ function Service () {
                     <div className="swiper-wrapper">
                         <ServiceSlide 
                             customImg={true}
-                            img="./assets/img/service/hap1.avif"
+                            img="./assets/img/service/happy.avif"
                             // img="happy.avif" 
                             title="Health"
                             desc="Comprehensive health support for your well-being."
@@ -38,7 +38,10 @@ function Service () {
                             desc="Educational programs and resources for learning and development"
                         />
                         <ServiceSlide 
-                            img="technology.avif" title="Technology"
+                            customImg={true}
+                            img="./assets/img/service/tech.avif" 
+                            // img="technology.avif" 
+                            title="Technology"
                             desc="Innovative tech services and solutions for the digital age."
                         />
                     </div>
