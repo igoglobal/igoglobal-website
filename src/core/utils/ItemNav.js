@@ -1,6 +1,24 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
+import blogData from "../data/blogData";
+import { useBlog } from "../provider/BlogProvider";
 
 function ItemNav ({linkPrev, linkNext, titlePrev, titleNext}) {
+    // const { blogId } = useParams();
+
+    const length = blogData.length
+
+    const { blog } = useBlog()
+
+    if(!blog){
+        return (
+            <div> No blog found! </div>
+        )
+    }
+    
+
+    const num = blogData.findIndex((val) => val.id === blog.id)
+    console.log(`index of this blog post in the data is ${num}`)
+
     return (
         <div className="navigation post-navigation" aria-label="Posts">
             <div className="nav-links">
@@ -8,7 +26,7 @@ function ItemNav ({linkPrev, linkNext, titlePrev, titleNext}) {
                     <Link to={`/${linkPrev}`}>
                         <span className="pbmit-post-nav-icon">
                             <i className="pbmit-base-icon-arrow-left"></i>
-                            <span className="pbmit-post-nav-head">Older Product</span>
+                            <span className="pbmit-post-nav-head">Older Blog</span>
                         </span>
                         <span className="pbmit-post-nav-wrapper">
                             <span className="pbmit-post-nav nav-title">{titlePrev}</span> 
@@ -18,7 +36,7 @@ function ItemNav ({linkPrev, linkNext, titlePrev, titleNext}) {
                 <div className="nav-next">
                     <Link to={`/${linkNext}`} rel="next">
                         <span className="pbmit-post-nav-icon">
-                            <span className="pbmit-post-nav-head">Newer Product</span>
+                            <span className="pbmit-post-nav-head">Newer Blog</span>
                             <i className="pbmit-base-icon-arrow-right"></i>
                         </span>
                         <span className="pbmit-post-nav-wrapper">

@@ -60,10 +60,10 @@ function Sidebar () {
                         </a>
                         <div className="pbmit-rpw-content">
                             <span className="pbmit-rpw-title">
-                                <a href="blog-single-detail.html">Determine and get in touch with prospects.</a>
+                                <a href="blog-single-detail.html">13 Reasons Why Herbal Medicine is a Better Option Any Day</a>
                             </span>
                             <span className="pbmit-rpw-date">
-                                <a href="blog-single-detail.html">July 14, 2023</a>
+                                <a href="blog-single-detail.html">July 14, 2024</a>
                             </span>
                         </div> 
                     </li>
@@ -73,23 +73,10 @@ function Sidebar () {
                         </a>
                         <div className="pbmit-rpw-content">
                             <span className="pbmit-rpw-title">
-                                <a href="blog-single-detail.html">Measure These 8 Crucial Brand Awareness Metrics</a>
+                                <a href="blog-single-detail.html">Why Daily Consumption of Iroko African Root is a Game-Changer for Health</a>
                             </span>
                             <span className="pbmit-rpw-date">
-                                <a href="blog-single-detail.html">July 14, 2023</a>
-                            </span>
-                        </div> 
-                    </li>
-                    <li className="recent-post-list-li"> 
-                        <a className="recent-post-thum" href="blog-single-detail.html">
-                            <img src="images/recent-post/blog-03.jpg" className="img-fluid" alt=""></img>
-                        </a>
-                        <div className="pbmit-rpw-content">
-                            <span className="pbmit-rpw-title">
-                                <a href="blog-single-detail.html">Keep aware of new current trends and competitors</a>
-                            </span>
-                            <span className="pbmit-rpw-date">
-                                <a href="blog-single-detail.html">July 14, 2023</a>
+                                <a href="blog-single-detail.html">August 8, 2023</a>
                             </span>
                         </div> 
                     </li>

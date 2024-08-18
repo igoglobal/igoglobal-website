@@ -1,16 +1,42 @@
+import { useParams } from "react-router-dom";
+
+import Title from "../../core/utils/Title";
+
 import Comment from "../../components/Blog/Comment";
 import Details from "../../components/Blog/Details";
 import Sidebar from "../../components/Blog/Sidebar";
-import Title from "../../core/utils/Title";
 
-function Blog () {
+import blogData from "../../core/data/blogData";
+import { useBlog } from "../../core/provider/BlogProvider";
+
+
+function SingleBlog(){
+	const { blogId } = useParams()
+	const { setBlog } = useBlog()
+
+	const blog = blogData.find(blog => blog.id === blogId)
+	if(!blog){
+		return (
+			<>
+				<Title 
+					title="Uknown Blog"
+					midName="blog"
+					sectionName=""
+				/>
+				<div> Oops! No blog post </div>
+			</>
+		)
+	}
+
+	// set blog data in context
+	setBlog(blog)
+
     return (
-		<>
+        <>
 			<Title 
-				title='The Ultimate Natural'
-				title2="Solution for Feminine Health"
+				title={blog.title}
 				midName="blog"
-                sectionName='The Ultimate Natural Solution for Feminine Health'
+                sectionName={blog.title}
 			/>
 			<section className="site_content">
 				<div className="container">
@@ -37,4 +63,4 @@ function Blog () {
     )
 }
 
-export default Blog;
+export default SingleBlog;

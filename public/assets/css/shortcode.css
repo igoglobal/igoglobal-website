@@ -3174,8 +3174,18 @@
 .pvirgin{
 	background-image: url("https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/pvirgin.avif");
 }
-.blog{
+.blogs{
 	background-image: url("https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/blog.avif");
+}
+
+.blog1{
+	background-image: url("../img/blog/irk-info.jpg");
+}
+.blog2{
+	background-image: url("./img/blog/main-blog.avif");
+}
+.blog3{
+	background-image: url("../img/blog/pureVir-info.jpg");
 }
 .pbmit-title-bar-wrapper:before{
 	content: "";

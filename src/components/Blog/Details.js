@@ -29,7 +29,7 @@ function Details () {
                         </span>	
                     </div>
                     <Entry />
-                    <div className="pbmit-blog-meta-bottom">
+                    {/* <div className="pbmit-blog-meta-bottom">
                         <div className="pbmit-blog-meta-bottom-left">
                             <span className="pbmit-meta-tags">
                                 <a href="#" rel="tag">Investing</a>
@@ -37,7 +37,7 @@ function Details () {
                                 <a href="#" rel="tag">Payment</a>
                             </span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>   
             </div> 
             <ItemNav 
