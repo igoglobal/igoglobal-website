@@ -8,10 +8,13 @@ function Header () {
     const { blogId } = useParams();
     const location = useLocation();
 
+    console.log(`value here ${blogId}`)
+
     const isNotHomePage = location.pathname !== "/contact-us" && location.pathname !== "/services" 
             && location.pathname !== "/iroko" && location.pathname !== "/pure-virgin"
             && location.pathname !== "/about-us" && location.pathname !== "/blogs"
-            && location.pathname !== `/blogs/${blogId}`;
+            && location.pathname !== `/blogs/4567` && location.pathname !== `/blogs/8634` && location.pathname !== `/blogs/5678`;
+            // && location.pathname !== `/blogs/${blogId}`;
     
     
 

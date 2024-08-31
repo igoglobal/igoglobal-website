@@ -15,7 +15,7 @@ const blogData = [
                     ingredients have been used for centuries in traditional medicine, ensuring their efficacy and safety. Pure Virgin not only addresses 
                     the symptoms but also enhances overall feminine health, making it a comprehensive solution for women.
                 `,
-        img: "https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/wellness",
+        img: "https://images.unsplash.com/photo-1523673671576-35ff54e94bae?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "The Ultimate Natural Solution For Feminine Health",
         get link () {
             return `${this.id}`
@@ -34,7 +34,7 @@ const blogData = [
 				`,
 		header: "Health Should Not Be Taken for Granted",
 		statement: "Informative and interactive financial blog is all about finance, taxation, investment, career, accounting, & global trending topics. If you are planning to enhance your financial knowledge, <strong>“this platform is for you”</strong> . Additionally, it you can share yourcussions on any finance topic of your choice.",
-        img: "https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/happy",
+        img: "https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "Why Daily Consumption of Iroko African Root is a Game-Changer for Health",
         get link () {
             return `${this.id}`
@@ -53,7 +53,7 @@ const blogData = [
 				`,
 		header: "See How Traditional Medicine still stands out",
 		statement: "Informative and interactive financial blog is all about finance, taxation, investment, career, accounting, & global trending topics. If you are planning to enhance your financial knowledge, <strong>“this platform is for you”</strong> . Additionally, it you can share yourcussions on any finance topic of your choice.",
-        img: "https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/tech",
+        img: "https://images.unsplash.com/photo-1556760544-74068565f05c?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         title: "13 Reasons Why Herbal Medicine is a Better Option Any Day",
         get link () {
             return `${this.id}`

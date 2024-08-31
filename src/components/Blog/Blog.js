@@ -8,7 +8,6 @@ function Blog ({img, tag, date, title, link}) {
                 <div className="pbmit-featured-container">
                     <div className="pbmit-featured-img-wrapper">
                         <div className="pbmit-featured-wrapper">
-                            {/* <img src={`./assets/img/blog/${img}`} className="img-fluid" alt=""></img> */}
                             <img src={img} className="img-fluid" alt=""></img>
                         </div>
                     </div>
@@ -23,7 +22,7 @@ function Blog ({img, tag, date, title, link}) {
                         </div>
                     </div>
                     <h3 className="pbmit-post-title">
-                        <Link to={`/blogs/${link}`}>{title}</Link>
+                        <a >{title}</a>
                     </h3>
                     <div className="pbmit-svg-btn">
                         <Link className="btn-arrow" to={`/blogs/${link}`}>

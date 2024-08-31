@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 
 import Title from "../../core/utils/Title";
 
-import Comment from "../../components/Blog/Comment";
+// import Comment from "../../components/Blog/Comment";
 import Details from "../../components/Blog/Details";
 import Sidebar from "../../components/Blog/Sidebar";
 
@@ -47,9 +47,9 @@ function SingleBlog(){
 									<article className="blog-details">
 										<Details />
 									</article>
-									<div className="comments-area">
+									{/* <div className="comments-area">
 										<Comment />
-									</div>
+									</div> */}
 								</div> 
 							</div>
 						</div>

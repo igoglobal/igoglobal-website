@@ -3179,13 +3179,13 @@
 }
 
 .blog1{
-	background-image: url("../img/blog/irk-info.jpg");
+	background-image: url("../img/blog/pv1.avif");
 }
 .blog2{
-	background-image: url("./img/blog/main-blog.avif");
+	background-image: url("../img/blog/game.avif");
 }
 .blog3{
-	background-image: url("../img/blog/pureVir-info.jpg");
+	background-image: url("../img/blog/medicine.avif");
 }
 .pbmit-title-bar-wrapper:before{
 	content: "";
