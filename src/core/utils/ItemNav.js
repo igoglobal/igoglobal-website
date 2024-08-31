@@ -16,8 +16,14 @@ function ItemNav ({linkPrev, linkNext, titlePrev, titleNext}) {
     }
     
 
-    const num = blogData.findIndex((val) => val.id === blog.id)
-    console.log(`index of this blog post in the data is ${num}`)
+    const blogInd = blogData.findIndex((val) => val.id === blog.id)
+    console.log(`index of this blog post in the data is ${blogInd}`)
+    console.log(typeof(blogInd))
+    
+    const isPrevBlog = blogInd != 0;
+    console.log(`is there a previous blog: ${isPrevBlog}`)
+    const isNextBlog = length > (blogInd + 1);
+    console.log(`is there a next blog: ${isNextBlog}`)
 
     return (
         <div className="navigation post-navigation" aria-label="Posts">

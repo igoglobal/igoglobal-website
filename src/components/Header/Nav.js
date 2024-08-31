@@ -93,7 +93,7 @@ function Nav () {
                                         <div className="pbmit-svg-btn pbmit-ihbox-btn">
                                             <a href='https://myigoglobal.com/' className="pbmit-btn pbmit-btn-outline" target='blank' rel='noopener'>
                                                 <span className="pbmit-header-button-text">
-                                                    Sign Up ➡
+                                                    Login
                                                     <svg className="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
                                                     <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
                                                     <line x1="1.2" y1="1" x2="18" y2="1"></line>
