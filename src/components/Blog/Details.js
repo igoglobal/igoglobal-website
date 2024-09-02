@@ -1,13 +1,28 @@
 import ItemNav from "../../core/utils/ItemNav";
 import Entry from "./Entry";
+import blogData from "../../core/data/blogData";
+import { useParams } from "react-router-dom";
+
 
 function Details () {
+    const { blogId } = useParams()
+    const blogLength = blogData.length
+    const currInd = blogData.findIndex(blog => blog.id === blogId)
+
+    const isNextBlog = blogLength > currInd;
+
+    console.log(`see currId here --> ${blogId}`) // gives valid id
+
+    // let lnPrev = currInd === 0 ? `/blogs/${blogData[currInd - 1].id}` : "/" 
+    // let lnNext = isNextBlog ? `/blogs/${blogData[currInd + 1].id}` : "/"
+    // titlePrev={currInd === 0 ? `/blogs/${blogData[currInd - 1].title}` : "No older blog"} 
+    // titleNext={isNextBlog ? blogData[currInd + 1].title : "No recent blog"}
     return (
         <>
             <div className="post blog-classNameic">    
                 <div className="pbmit-featured-img-wrapper">
                     <div className="pbmit-featured-wrapper">
-                        <img src="images/blog/blog-img-02.jpg" className="img-fluid" alt=""></img>
+                        <img src="" className="img-fluid" alt=""></img>
                     </div>
                 </div>  
                 <div className="pbmit-blog-classNameic-inner">
@@ -29,7 +44,7 @@ function Details () {
                         </span>	
                     </div>
                     <Entry />
-                    <div className="pbmit-blog-meta-bottom">
+                    {/* <div className="pbmit-blog-meta-bottom">
                         <div className="pbmit-blog-meta-bottom-left">
                             <span className="pbmit-meta-tags">
                                 <a href="#" rel="tag">Investing</a>
@@ -37,13 +52,12 @@ function Details () {
                                 <a href="#" rel="tag">Payment</a>
                             </span>
                         </div>
-                    </div>
+                    </div> */}
                 </div>   
             </div> 
             <ItemNav 
-                linkPrev="/" linkNext="/"
-                titlePrev="Keep aware of new current trends and competitors" 
-                titleNext="Determine and get in touch with prospects."
+                linkPrev="" linkNext=""
+                titlePrev="" titleNext=""
             />
         </>
     )

@@ -21,37 +21,47 @@ function Team () {
                             <Member 
                                 title="CEO"
                                 name="Victor Etukinyang"
-                                img="ceo.png"
+                                img="male.avif"
                             />
                             <Member 
                                 title="Managing Director"
                                 name="Grace Etukinyang"
-                                img="grace.png"
+                                img="female1.webp"
                             />
                             <Member 
                                 title="Director of IT"
                                 name="Emmanuel Akpan"
-                                img="emma.png"
+                                img="male.webp"
                             />
                             <Member 
                                 title="Director of Finance"
                                 name="Nathaniel Jimmy"
-                                img="nath.jpg"
+                                img="male3.png"
                             />
                             <Member 
                                 title="Head of IT Operations"
                                 name="Victor Otubure"
-                                img="vicky.png"
+                                img="male2.webp"
                             />
                             <Member 
                                 title="Head of Design"
                                 name="Eniola Kwuelum"
-                                img="eniola.png"
+                                img="female3.webp"
+                            />
+                            <Member 
+                                title="Sotware Dev"
+                                name="Wale Onefesor"
+                                img="male4.webp"
                             />
                             <Member 
                                 title="Marketing Manager"
                                 name="Nnamani Kelvin O."
-                                img="kelvin.png"
+                                img="male1.jpg"
+                            />
+                            <Member 
+                                title="Mangement Sec"
+                                name="Jessica"
+                                img="female4.jpg"
                             />
                         </div>	
                     </div>

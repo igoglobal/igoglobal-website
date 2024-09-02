@@ -7,7 +7,11 @@ function Title ({ title, title2="", midName="", sectionName}) {
 	const ctct = location.pathname !== "/contact-us"
 	const serv = location.pathname !== "/services" 
 	const abt = location.pathname !== "/about-us";
-	const blog = location.pathname !== "/blogs"
+	const blogs = location.pathname !== "/blogs"
+
+	const blog1 = location.pathname !== "/blogs/4567"
+	const blog2 = location.pathname !== "/blogs/8634"
+	const blog3 = location.pathname !== "/blogs/5678"
 	
 	const irk = location.pathname !== "/iroko" 
 	const pvirg = location.pathname !== "/pure-virgin"
@@ -15,7 +19,8 @@ function Title ({ title, title2="", midName="", sectionName}) {
     return (
         <div className={`pbmit-title-bar-wrapper 
 			${!ctct ? "contact" : ""} ${!serv ? "services" : ""} ${!abt ? "about" : ""}
-			${!irk ? "iroko" : ""} ${!pvirg ? "pvirgin" : ""} ${!blog ? "blog" : ""}`
+			${!irk ? "iroko" : ""} ${!pvirg ? "pvirgin" : ""} ${!blogs ? "blogs" : ""}
+			${!blog1 ? "blog1" : ""} ${!blog2 ? "blog2" : ""} ${!blog3 ? "blog3" : ""}`
 		}>
 			<div className="container">
 				<div className="pbmit-title-bar-content">

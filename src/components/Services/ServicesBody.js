@@ -15,7 +15,7 @@ function ServicesBody () {
                 <p>With a focus on your individual needs, our leadership has set out to create a company that stands out, whether you're a customer or a distributor. This commitment to customization drives everything we do, shaping our present and future endeavors.</p>
 
                 <ImageSection 
-                    img1="happy.avif"
+                    img1="tech.avif"
                     img2="wellness.avif"
                 />
                 

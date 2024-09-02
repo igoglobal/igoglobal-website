@@ -1,6 +1,8 @@
 import ItemNav from "../../core/utils/ItemNav";
 
-function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3, defImg, benefitImg, ingImg, benefits, b1, b2, b3, b4, prodImg, linkPrev, linkNext, titlePrev, titleNext}) {
+function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3, 
+        defImg, benefitImg, ingImg, benefits, b1, b2, b3, b4, prodImg, 
+        linkPrev, linkNext, titlePrev, titleNext, ing1, ing2, ing3, ing4}) {
     return (
         <>
             <div className="pbmit-featured-img-wrapper">
@@ -68,7 +70,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                 <img src={`./assets/img/product/${benefitImg}`} style={{width: "80%"}}></img>
                             </div>
                         </div>
-                        <div className="col-md-12 col-xl-7">
+                        <div className="col-md-12 col-xl-7" style={{marginTop: "4rem"}}>
                             <p> {benefits}
                             </p>
                             <ul className="list-group list-group-borderless">
@@ -110,12 +112,11 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                 <img src={`./assets/img/product/${ingImg}`} style={{width: "80%"}}></img>
                             </div>
                         </div>
-                        <div className="col-md-12 col-xl-7">
-                            <p>
-                                {/* We have a passionate commitment to our work & to helping our clients achieve their objective. We combine unique technical <span className="pbmit-underline"><strong><u>expertise with world-className 
-                                analytics</u></strong></span> . We provide room for entrepreneurial thinking and bestest grass-root innovation to achieve compelling results for both our clients’ projects & our own company. 
-                                Since 1969, ICF has been been serving government at all levels, major corporations, and multilateral institutions. More than 4,500 employees serve these clients worldwide. */}
-                            </p>		
+                        <div className="col-md-12 col-xl-7" style={{marginTop: "5rem"}}>
+                            <p > {ing1} </p>		
+                            <p> {ing2} </p>		
+                            <p> {ing3} </p>		
+                            <p> {ing4} </p>		
                         </div>
                     </div>
                 </div>

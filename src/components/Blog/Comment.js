@@ -11,7 +11,7 @@ function Comment () {
                 {/* <li> */}
                 <li className="comment depth-1">
                     <BlogInfo 
-                        author="Emmanuel Udd"
+                        author="Emmanuel Akpan"
                         duration="2 months ago"
                         text="Sed maximus imperdiet ipsum, id scelerisque nisi tincidunt vitae. In lobortis neque nec dolor vehicula, eget vulputate ligula lobortis."
                         img="author.avif"
@@ -27,7 +27,7 @@ function Comment () {
                     <BlogInfo 
                         author="Grace Etukiyang"
                         duration="5 months ago"
-                        text="the new cool thing is staying healthy regardless on one's age, for health superceeds every other thing ever"
+                        text="The new cool thing is staying healthy regardless of one's age, for health superceeds every other thing ever"
                         img="author.avif"
                     />
                 </li>

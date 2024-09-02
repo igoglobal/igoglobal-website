@@ -24,6 +24,11 @@ function Iroko () {
                 ingImg="iroko_ing.png" benefitImg="iroko_benefit.png"
                 defImg="iroko_def.png"
                 linkPrev="#" linkNext="pure-virgin" titlePrev="Nil" titleNext="Pure Virgin"
+                
+                ing1="👨‍🍳 Mahogany => It effectively reduces swelling and pain, making it a natural choice for managing chronic inflammatory conditions. Its antiseptic properties help prevent infections and promote cleanliness, making it ideal for wound care and skin health."
+                ing2="👨‍🍳 Zingiber Officinale (Ginger) => Ginger serves as a digestive aid, relieving nausea, indigestion, and bloating. Its anti-inflammatory properties reduce pain and swelling, making it effective for conditions like arthritis and muscle soreness."
+                ing3="👨‍🍳 Clove => This is a well-known spice with potent medicinal properties, and its analgesic properties provide effective relief from toothache pain and headaches, offering a natural alternative to over-the-counter painkillers"
+                ing4="👨‍🍳 Hunteria Umbellata => The antioxidant properties of Hunteria Umbellata protect against cell damage and aging, promoting longevity and overall well-being. Its anti-inflammatory properties also helps reduce pain and swelling, making it effective for managing chronic inflammatory conditions."
             />
             
         </article>

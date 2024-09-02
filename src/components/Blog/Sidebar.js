@@ -1,6 +1,17 @@
+import { Link, useParams } from "react-router-dom";
+
 import ReachUs from "../../core/utils/ReachUs";
+import blogData from "../../core/data/blogData";
+
 
 function Sidebar () {
+    const { blogId } = useParams()
+
+    const blogLength = blogData.length;
+    const blogInd = blogData.findIndex(blog => blog.id === blogId)
+
+    const isNextBlog = blogLength > (blogInd + 1);
+
     return (
         <aside className="sidebar">
             <aside className="widget widget-search">
@@ -14,7 +25,7 @@ function Sidebar () {
                 <h2 className="widget-title">Categories</h2>
                 <ul>
                     <li>
-                        <span className="pbmit-cat-li">
+               x         <span className="pbmit-cat-li">
                             <a href="blog-classNameic.html">Business</a>
                             <span className="pbmit-brackets">( 1 )</span>
                         </span>
@@ -55,41 +66,28 @@ function Sidebar () {
                 <h2 className="widget-title">Other Blogs</h2>
                 <ul className="recent-post-list">
                     <li className="recent-post-list-li"> 
-                        <a className="recent-post-thum" href="blog-single-detail.html">
-                            <img src="images/recent-post/blog-01.jpg" className="img-fluid" alt=""></img>
-                        </a>
+                        <Link className="recent-post-thum" to={blogInd === 0 ? "/blogs" : `/blogs/${blogData[blogInd -1].id}`}>
+                            <img src={blogInd === 0 ? "" : blogData[blogInd -1].img} className="img-fluid" alt=""></img>
+                        </Link>
                         <div className="pbmit-rpw-content">
                             <span className="pbmit-rpw-title">
-                                <a href="blog-single-detail.html">Determine and get in touch with prospects.</a>
+                                <Link to={blogInd === 0 ? "/blogs" : `/blogs/${blogData[blogInd -1].id}`}>{ blogInd === 0 ? "No prev blog" : blogData[blogInd -1].title}</Link>
                             </span>
                             <span className="pbmit-rpw-date">
-                                <a href="blog-single-detail.html">July 14, 2023</a>
+                                <a >{ blogInd === 0 ? "No prev blog" : blogData[blogInd -1].date}</a>
                             </span>
                         </div> 
                     </li>
                     <li className="recent-post-list-li"> 
-                        <a className="recent-post-thum" href="blog-single-detail.html">
-                            <img src="images/recent-post/blog-02.jpg" className="img-fluid" alt=""></img>
-                        </a>
+                        <Link className="recent-post-thum" to={isNextBlog ? `/blogs/${blogData[blogInd + 1].id}` : "/blogs"}>
+                            <img src={isNextBlog ? blogData[blogInd + 1].img : ""} className="img-fluid" alt=""></img>
+                        </Link>
                         <div className="pbmit-rpw-content">
                             <span className="pbmit-rpw-title">
-                                <a href="blog-single-detail.html">Measure These 8 Crucial Brand Awareness Metrics</a>
+                                <Link to={isNextBlog ? `/blogs/${blogData[blogInd + 1].id}` : "/blogs"}> { isNextBlog ? blogData[blogInd + 1].title : "No Blog"} </Link>
                             </span>
                             <span className="pbmit-rpw-date">
-                                <a href="blog-single-detail.html">July 14, 2023</a>
-                            </span>
-                        </div> 
-                    </li>
-                    <li className="recent-post-list-li"> 
-                        <a className="recent-post-thum" href="blog-single-detail.html">
-                            <img src="images/recent-post/blog-03.jpg" className="img-fluid" alt=""></img>
-                        </a>
-                        <div className="pbmit-rpw-content">
-                            <span className="pbmit-rpw-title">
-                                <a href="blog-single-detail.html">Keep aware of new current trends and competitors</a>
-                            </span>
-                            <span className="pbmit-rpw-date">
-                                <a href="blog-single-detail.html">July 14, 2023</a>
+                                <a >{ isNextBlog ? blogData[blogInd + 1].date : "In some weeks time..."}</a>
                             </span>
                         </div> 
                     </li>
@@ -99,10 +97,10 @@ function Sidebar () {
             <aside className="widget widget-tag-cloud">
                 <h3 className="widget-title">Blog Tag</h3>
                 <div className="tagcloud">
-                    <a href="blog-classNameic.html" className="tag-cloud-link">health</a>
-                    <a href="blog-classNameic.html" className="tag-cloud-link">nature</a>
-                    <a href="blog-classNameic.html" className="tag-cloud-link">medicine</a>
-                    <a href="blog-classNameic.html" className="tag-cloud-link">Marketing</a>
+                    <a href="" className="tag-cloud-link">health</a>
+                    <a href="" className="tag-cloud-link">nature</a>
+                    <a href="" className="tag-cloud-link">medicine</a>
+                    <a href="" className="tag-cloud-link">Marketing</a>
                 </div>
             </aside> 
         </aside>

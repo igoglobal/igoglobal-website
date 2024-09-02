@@ -10,7 +10,8 @@ import Services from './pages/Services/Services';
 import Product from './pages/Product/Product';
 import AboutUs from './pages/AboutUs/AboutUs';
 import Chat from './pages/Chat/Chat';
-import Blog from './pages/Blog/Blog';
+import Blogs from './pages/Blog/Blogs';
+import SingleBlog from './pages/Blog/SingleBlog';
 
 function App() {
   return (
@@ -24,7 +25,9 @@ function App() {
         <Route path='/services' element={<Services/>}/>
         <Route path='/contact-us' element={<Contact/>}/>
         <Route path='/about-us' element={<AboutUs/>}/>
-        <Route path='/blogs' element={<Blog/>}/>
+        <Route path='/blogs' element={<Blogs/>}/>
+
+        <Route path={'/blogs/:blogId'} element={<SingleBlog />} />
 
         <Route path='/chat' element={<Chat/>}/>
 
