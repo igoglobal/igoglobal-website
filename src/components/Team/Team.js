@@ -21,47 +21,56 @@ function Team () {
                             <Member 
                                 title="CEO"
                                 name="Victor Etukinyang"
-                                img="male.avif"
+                                // img="male.avif"
+                                img="ceo.png"
                             />
                             <Member 
                                 title="Managing Director"
                                 name="Grace Etukinyang"
-                                img="female1.webp"
+                                // img="female1.webp"
+                                img=""
                             />
                             <Member 
                                 title="Director of IT"
                                 name="Emmanuel Akpan"
-                                img="male.webp"
+                                // img="male.webp"
+                                img=""
                             />
                             <Member 
                                 title="Director of Finance"
                                 name="Nathaniel Jimmy"
-                                img="male3.png"
+                                // img="male3.png"
+                                img=""
                             />
                             <Member 
                                 title="Head of IT Operations"
                                 name="Victor Otubure"
-                                img="male2.webp"
+                                // img="male2.webp"
+                                img=""
                             />
                             <Member 
                                 title="Head of Design"
                                 name="Eniola Kwuelum"
-                                img="female3.webp"
+                                // img="female3.webp"
+                                img=""
                             />
                             <Member 
                                 title="Sotware Dev"
-                                name="Wale Onefesor"
-                                img="male4.webp"
+                                name="Wale Onafeso"
+                                // img="male4.webp"
+                                img=""
                             />
                             <Member 
                                 title="Marketing Manager"
                                 name="Nnamani Kelvin O."
-                                img="male1.jpg"
+                                // img="male1.jpg"
+                                img=""
                             />
                             <Member 
                                 title="Mangement Sec"
                                 name="Jessica"
-                                img="female4.jpg"
+                                // img="female4.jpg"
+                                img=""
                             />
                         </div>	
                     </div>

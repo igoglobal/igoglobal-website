@@ -24,35 +24,36 @@ function Chat () {
         },
         select: {
             message: "How may I be of help?",
-            options: ["comp", "products", "services"],
+            options: ["company", "products", "services"],
             chatDisabled: true,  
-            path: (param) => `company:${param.userInput}`
-        },
-
-        //company
-        "company:comp": {
-            message: "you chose product 1",
-            options: ["vision", "mission"],
             path: (param) => `comp:${param.userInput}`
         },
-        "company:products": {
+
+        //COMPANY
+        "comp:company": {
+            message: "Our beliefs are:",
+            options: ["vision", "mission"],
+            path: (param) => `companies:${param.userInput}`
+        },
+        "comp:products": {
             message: "We currently have two products",
             options: ["iroko", "pure virgin"],
             path: (param) => `product:${param.userInput}`
         },
-        "company:services": {
-            message: "We offer the following",
+        "comp:services": {
+            message: "We offer the following:",
             options: ["health", "wellness", "education", "technology", "real estate"],
             path: (param) => `services:${param.userInput}`
         },
 
-        // comp
-        "comp:vision": {
+        // COMPANY >> companies
+        "companies:vision": {
             message: "Our vision is to promote healthy living and increased health for individuals across africa, and beyong",
-            path: "select"
+            // path: `:${}`
         },
-        "comp:mission": {
+        "companies:mission": {
             message: "built on the core of excellence, we thrive to create the best product and deliver outstanding services to all our clients",
+            // path: `:${}`
         },
 
         // products -- iroko
@@ -74,7 +75,7 @@ function Chat () {
             path: "select"
         },
 
-        // services
+        // SERVICES
         "services:health": {
             message: "The health of every human can be maintained easily if enough attention is paid",
             options: ["back"],
@@ -84,18 +85,7 @@ function Chat () {
             message: "We also offer real estate business to boost wealth in the marketing industry",
             options: ["back"],
             path: "select"
-        },
-
-        "company:info": {
-            // message: (param) => `text from before is: ${param.userInput}`,
-            message: "Igoglobal is a renowned company with expertise in health, wellness and nature's extract to improve healthcare",
-            path: "start"
-        },
-        "company:prod": {
-            // message: (param) => `text from before is: ${param.userInput}`,
-            message: "Igoglobal is a renowned company with expertise in health, wellness and nature's extract to improve healthcare",
-            path: "start"
-        },
+        },  
     }
 
     const options = {
