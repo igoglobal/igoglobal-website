@@ -15,7 +15,7 @@ function ServicesBody () {
                 <p>With a focus on your individual needs, our leadership has set out to create a company that stands out, whether you're a customer or a distributor. This commitment to customization drives everything we do, shaping our present and future endeavors.</p>
 
                 <ImageSection 
-                    img1="tech.avif"
+                    img1="happy.avif"
                     img2="wellness.avif"
                 />
                 
@@ -58,7 +58,7 @@ function ServicesBody () {
 
                 <ImageSection 
                     img1="education.avif"
-                    img2="technology.avif"
+                    img2="tech.avif"
                 />
 
                 <div className="pbmit-heading-subheading animation-style2">
