@@ -62,7 +62,7 @@ function Nav () {
                                             <li> 
                                                 <NavLink 
                                                     to="/blogs" 
-                                                    className={({isActive}) => (isActive ? "active" : "")}> Blogs 
+                                                    className={({isActive}) => (isActive ? "active" : "")}> Blog 
                                                 </NavLink> 
                                             </li>
                                             <li> 
