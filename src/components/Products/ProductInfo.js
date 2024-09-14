@@ -6,7 +6,7 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
     return (
         <>
             <div className="pbmit-featured-img-wrapper">
-                <img src={`https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img}`} className="img-fluid w-100" alt=""></img>
+                <img src={`./assets/img/product/${img}`} className="img-fluid w-100" alt=""></img>
             </div>
             <div className="pbmit-single-project-details-list">
                 <ul className="pbmit-portfolio-lines-ul">
@@ -66,7 +66,6 @@ function ProductInfo ({img, title, category, date, p1, p2, p3, img1, img2, img3,
                                 <h3 className="pbmit-title">02. Benefits of {title} :</h3>
                             </div>
                             <div>
-                                {/* <img src="https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/benefit.avif" style={{width: "80%"}}></img> */}
                                 <img src={`./assets/img/product/${benefitImg}`} style={{width: "80%"}}></img>
                             </div>
                         </div>
