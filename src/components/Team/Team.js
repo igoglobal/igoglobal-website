@@ -29,6 +29,7 @@ function Team () {
                                     />
                                 ))
                             }                            
+
                         </div>	
                     </div>
                 </div>
