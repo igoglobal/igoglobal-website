@@ -1,4 +1,5 @@
 import ServiceSlide from "../../components/Services/ServiceSlide";
+import serviceData from "../data/serviceData";
 
 function Service () {
     return (
@@ -18,32 +19,16 @@ function Service () {
             <div className="pbmit-col-stretched-right">
                 <div className="swiper-slider" data-arrows-class="service-one-arrow" data-loop="true" data-autoplay="true" data-dots="false" data-arrows="true" data-columns="3.2" data-margin="30" data-effect="slide">
                     <div className="swiper-wrapper">
-                        <ServiceSlide 
-                            customImg={true}
-                            img="./assets/img/service/happy.avif"
-                            // img="happy.avif" 
-                            title="Health"
-                            desc="Comprehensive health support for your well-being."
-                        />
-                        <ServiceSlide 
-                            img="wellness.avif" title="Wellness"
-                            desc="Balanced and healthy lifestyle programs"
-                        />
-                        <ServiceSlide 
-                            img="home.avif" title="Real Estate"
-                            desc="Real estate solutions for buying, selling, and investing"
-                        />
-                        <ServiceSlide 
-                            img="education.avif" title="Education"
-                            desc="Educational programs and resources for learning and development"
-                        />
-                        <ServiceSlide 
-                            customImg={true}
-                            img="./assets/img/service/tech.avif" 
-                            // img="technology.avif" 
-                            title="Technology"
-                            desc="Innovative tech services and solutions for the digital age."
-                        />
+                        {
+                            serviceData.map(service => (
+                                <ServiceSlide 
+                                    key={service.title}
+                                    img={service.img}
+                                    title={service.title}
+                                    desc={service.desc}
+                                />
+                            ))
+                        }
                     </div>
                 </div>
             </div>

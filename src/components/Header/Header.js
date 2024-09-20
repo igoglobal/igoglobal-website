@@ -1,14 +1,10 @@
-import { useLocation, useParams } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 
 import Slider from './Slider';
 import Nav from './Nav';
-import blogData from '../../core/data/blogData';
 
 function Header () {
-    const { blogId } = useParams();
     const location = useLocation();
-
-    console.log(`value here ${blogId}`)
 
     const isNotHomePage = location.pathname !== "/contact-us" && location.pathname !== "/services" 
             && location.pathname !== "/iroko" && location.pathname !== "/pure-virgin"

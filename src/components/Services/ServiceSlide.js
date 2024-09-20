@@ -1,11 +1,11 @@
-function ServiceSlide ({img, title, desc, customImg=false}) {
+function ServiceSlide ({img, title, desc}) {
     return (
         <article className="pbmit-service-style-1 swiper-slide">
             <div className="pbminfotech-post-item">
                 <div className="pbminfotech-service-content">
                     <div className="pbmit-featured-img-wrapper">
                         <div className="pbmit-featured-wrapper">
-                            <img src={customImg ? img : `https://igogolobal-assets.s3.eu-west-2.amazonaws.com/images/${img}`} className="img-fluid" alt=""></img>
+                            <img src={img} className="img-fluid" alt=""></img>
                         </div>
                     </div>
                     <div className="pbminfotech-box-content">

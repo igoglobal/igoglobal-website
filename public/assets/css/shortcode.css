@@ -93,6 +93,9 @@
 .pbmit-heading-subheading.pbmit-text-color-white .pbmit-title{
 	color: var(--pbmit-white-color) !important;
 }
+.pbmit-subtitle{
+	margin-right: 2rem;
+}
 /* .pbmit-title {
 	color: yellow;
 } */
