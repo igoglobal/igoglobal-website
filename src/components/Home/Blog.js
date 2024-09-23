@@ -1,12 +1,8 @@
 import blogData from "../../core/data/blogData";
 import Post from "../Blog/Post";
 
+
 function Blog () {
-    const blogLength = blogData.length;
-
-    const firstBlog = blogData[blogLength - 1]
-    const secBlog = blogData[blogLength - 2]
-
     return (
         <section>
         <div className="container-fluid p-0">
@@ -20,20 +16,16 @@ function Blog () {
                             <h4 className="pbmit-subtitle">Blogs From Igoglobal</h4>
                             <h2 className="pbmit-title"> Latest Blog</h2>
                         </div>
-                        <Post 
-                            img={firstBlog.img}
-                            tag={firstBlog.tag}
-                            date={firstBlog.date}
-                            title={firstBlog.title}
-                            link={firstBlog.link}
-                        />
-                        <Post 
-                            img={secBlog.img}
-                            tag={secBlog.tag}
-                            date={secBlog.date}
-                            title={secBlog.title}
-                            link={secBlog.link}
-                        />
+                        {
+                            blogData.slice(0, 2).map(blog => (
+                                <Post 
+                                    key={blog.id}
+                                    img={blog.img} tag={blog.tag}
+                                    date={blog.date} title={blog.title}
+                                    link={blog.link}
+                                />
+                            ))
+                        }
                     </div>
                 </div>
             </div>
