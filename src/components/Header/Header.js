@@ -9,6 +9,7 @@ function Header () {
     const isNotHomePage = location.pathname !== "/contact-us" && location.pathname !== "/services" 
             && location.pathname !== "/iroko" && location.pathname !== "/pure-virgin"
             && location.pathname !== "/about-us" && location.pathname !== "/blogs"
+            && location.pathname !== "/privacy-policy" && location.pathname !== "/terms-conditions"
             && location.pathname !== `/blogs/4567` && location.pathname !== `/blogs/8634` && location.pathname !== `/blogs/5678`;
             // && location.pathname !== `/blogs/${blogId}`;
     

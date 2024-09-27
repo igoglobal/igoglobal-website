@@ -33,9 +33,12 @@ function Title ({ title, title2="", midName="", sectionName}) {
 									<i className="pbmit-base-icon-angle-right"></i>
 								</span>
 								<span><a title="" href="#" className="home"><span>{midName}</span></a></span>
-								<span className="sep">
-									<i className="pbmit-base-icon-angle-right"></i>
-								</span>
+								{
+									midName && 
+									<span className="sep">
+										<i className="pbmit-base-icon-angle-right"></i>
+									</span>	
+								}
 								<span><a title="" href="#" className="home"><span>{sectionName}</span></a></span>
 							</div>
 						</div>

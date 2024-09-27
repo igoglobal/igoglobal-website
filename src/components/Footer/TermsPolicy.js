@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function TermsPolicy () {
     return (
         <div className="pbmit-footer-text-inner">
@@ -10,7 +12,7 @@ function TermsPolicy () {
                 <div className="col-md-6">
                     <div className=" pbmit-footer-menu-area">
                         <ul>
-                            <li><a href="#">Terms & Conditions</a></li>
+                            <li><Link to="/terms-conditions">Terms & Conditions</Link></li>
                             <li><a href="#">Privacy Policy</a></li>
                         </ul>
                     </div>
