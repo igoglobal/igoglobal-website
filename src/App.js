@@ -14,6 +14,7 @@ import PrivacyPolicy from './pages/Footer/PrivacyPolicy';
 
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
+import ScrollToTop from './core/utils/ScrollToTop';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
     <Router>
       <Header/>
 
+      <ScrollToTop />
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/services' element={<Services/>}/>

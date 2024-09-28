@@ -78,11 +78,7 @@ const termsConditionsData = [
     },
     {
         name: `CONTACT INFORMATION`,
-        content: `Questions about the Terms of Service should be sent to us at customersupport@igoglobal.io. Our contact information is posted below:
-        Trading Name: Igoglobal
-        customersupport@igoglobal.io
-        Business Address: 1 Morenikeji Street, Off Ladipo Kasimu Street, First Bank Bus-Stop, Allen, Ikeja. Lagos.
-        Business Phone Number:`
+        content: `Questions about the Terms of Service should be sent to us at customersupport@igoglobal.io. Our contact information is displayed in the footer section, or our contact us page`
     },
 ]
 

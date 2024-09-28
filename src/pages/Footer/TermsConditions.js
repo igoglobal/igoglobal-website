@@ -7,11 +7,11 @@ function TermsConditions () {
         <>
             <Title
                 title='Terms and Conditions'
-                sectionName=''
+                sectionName='terms and conditions'
             />
-            <div className="container terms">
+            <div className="container-vs">
                 <>
-                    <h5> OVERVIEW </h5>
+                    <h5> Overview </h5>
                     <p> This website is operated by iGOglobal International Inc. Throughout the site, the terms “we,” “us,” and “our” refer to iGOglobal International Inc. iGOglobal International Inc. offers this website, 
                         including all information, tools, and services available from this site, to you, the user, conditioned upon your acceptance of all terms, conditions, policies, and notices stated here.
                         By visiting our site and/or purchasing something from us, you engage in our “Service” and agree to be bound by the following terms and conditions (“Terms of Service,” “Terms”), including those 

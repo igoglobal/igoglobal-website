@@ -1,10 +1,8 @@
 function TC ({ no, name, content }) {
     return (
         <>
-            <h6> SECTION { no } - { name } </h6>
-            <p>
-                { content }
-            </p>
+            <p> SECTION { no } - { name } </p>
+            <p> { content } </p>
         </>
     )
 }

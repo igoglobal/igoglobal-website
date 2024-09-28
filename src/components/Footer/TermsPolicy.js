@@ -13,7 +13,7 @@ function TermsPolicy () {
                     <div className=" pbmit-footer-menu-area">
                         <ul>
                             <li><Link to="/terms-conditions">Terms & Conditions</Link></li>
-                            <li><a href="#">Privacy Policy</a></li>
+                            <li><Link to="/privacy-policy">Privacy Policy</Link></li>
                         </ul>
                     </div>
                 </div>		
