@@ -17,7 +17,7 @@ function Swiper ({img, minTitle, title, subTitle, text, subText}) {
                                 <div className="pbmit-desc transform-bottom transform-delay-3">
                                     {text} <br></br> {subText}.
                                 </div>
-                                <div className="transform-bottom transform-delay-4">
+                                {/* <div className="transform-bottom transform-delay-4">
                                     <Link to="/contact-us" className="pbmit-btn pbmit-btn-white">
                                         <span className="pbmit-header-button-text">
                                             Contact Us 
@@ -28,7 +28,7 @@ function Swiper ({img, minTitle, title, subTitle, text, subText}) {
                                             </svg>
                                         </span>
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-md-5"></div>

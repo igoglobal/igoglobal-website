@@ -1,11 +1,9 @@
 import { useParams } from "react-router-dom";
 
-import Title from "../../core/utils/Title";
-
-// import Comment from "../../components/Blog/Comment";
 import Details from "../../components/Blog/Details";
 import Sidebar from "../../components/Blog/Sidebar";
 
+import Title from "../../core/utils/Title";
 import blogData from "../../core/data/blogData";
 import { useBlog } from "../../core/provider/BlogProvider";
 

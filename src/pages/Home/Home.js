@@ -1,14 +1,16 @@
 import { useEffect } from "react";
 
-import Testimonial from "../../core/utils/Testimonial";
 import Blog from "../../components/Home/Blog";
 import About from "../../components/Home/About";
 import Process from "../../components/Home/Process";
 import SearchBox from "../../components/Home/SearchBox";
+import Team from "../../components/Team/Team";
 
+
+import Testimonial from "../../core/utils/Testimonial";
 import AboutSection from "../../core/utils/AboutSection";
 import Service from "../../core/utils/Service";
-import Team from "../../components/Team/Team";
+
 import useLoader from "../../core/hooks/useLoader";
 
 
@@ -22,22 +24,19 @@ import useLoader from "../../core/hooks/useLoader";
 
 function Home () {    
     const loading = useLoader()
-
     useEffect(() => {
-        const isLoaded = sessionStorage.getItem("loader")
-    
+        const isLoaded = localStorage.getItem("loader")
         if(!isLoaded){
-            sessionStorage.setItem("loader", "true")
+            localStorage.setItem("loader", "true")
             window.location.reload()
         }
-    
+
         return () => {
             if(window.location.pathname !== "/"){
-                sessionStorage.removeItem("loader")
+                localStorage.removeItem("loader")
             }
         }
     }, [])
-
 
     return (
         // <>

@@ -1,6 +1,6 @@
 import Blog from "../../components/Blog/Blog";
-import Title from "../../core/utils/Title";
 
+import Title from "../../core/utils/Title";
 import blogData from "../../core/data/blogData";
 
 function Blogs () {
