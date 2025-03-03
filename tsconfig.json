@@ -1,0 +1,37 @@
+{
+  "compilerOptions": {
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "types" : ["jquery"],
+    /* Visit https://aka.ms/tsconfig to read more about this file */
+
+    /* Language and Environment */
+    "target": "es2016",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],   
+    "allowJs": true,                                     /* Specify a set of bundled library declaration files that describe the target runtime environment. */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */,
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "allowSyntheticDefaultImports": true,
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    
+    
+    
+    /* Modules */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "module": "ESNext",                                /* Specify what module code is generated. */
+    "moduleResolution": "Node",      
+    
+    "resolveJsonModule": true,                // Allow importing JSON modules
+    "isolatedModules": true,                  // Treat each file as a module
+    "noEmit": true,                           // Disable emitting output files
+    "jsx": "react-jsx",
+    
+  },
+  "include": [
+    "src/**/*",
+    "types/**/*"
+  ],
+  "exclude": ["node_modules"]
+}

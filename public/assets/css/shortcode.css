@@ -3197,6 +3197,9 @@
 .policy {
 	background-image: url("../img/footer/policy.avif");
 }
+.chat {
+	background-image: url("../img/slider/slider-1.avif");
+}
 .container-vs {
 	margin: 3rem 10vw;
 	text-align: justify;

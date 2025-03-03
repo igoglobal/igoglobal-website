@@ -1,3 +1,4 @@
+  import 'jquery';
 /*
  * jQuery.appear
  * https://github.com/bas2k/jquery.appear/
@@ -8,6 +9,9 @@
  * Copyright (c) 2012-2014 Alexander Brovikov
  * Licensed under the MIT license (http://www.opensource.org/licenses/mit-license.php)
  */
+
+
+// (function($:JQueryStatic) {
 (function($) {
  $.fn.appear = function(fn, options) {
   var settings = $.extend({
