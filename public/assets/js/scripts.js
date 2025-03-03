@@ -1,3 +1,4 @@
+
 (function ($) {
   "use strict";
   /*-------------------------------------
@@ -13,16 +14,22 @@
                   var from     = self.data('from');
                   var to       = self.data('to');
                   var interval = self.data('interval');
-                  self.numinate({
-                      format: '%counter%',
-                      from: from,
-                      to: to,
-                      runningInterval: 2000,
-                      stepUnit: interval,
-                      onComplete: function(elem) {
-                          self.addClass('completed');
-                      }
-                  });
+				  try {
+					if(typeof self.numinate === 'function'){
+						self.numinate({
+							format: '%counter%',
+							from: from,
+							to: to,
+							runningInterval: 2000,
+							stepUnit: interval,
+							onComplete: function(elem) {
+								self.addClass('completed');
+							}
+						});
+					}
+				  } catch (error) {
+					console.log('Error running numinate')
+				  }
               }
           }, { offset:'85%' });
       }
@@ -230,9 +237,9 @@ $('.pbmit-circle-outer').each(function() {
   /*-------------------------------------
   ProgressBar
   -------------------------------------*/
-  AOS.init({
-    once: true,
-  });
+//   AOS.init({
+//     once: true,
+//   });
 
   /*-------------------------------------
   Scroll To Top
@@ -240,6 +247,10 @@ $('.pbmit-circle-outer').each(function() {
 
 	var pbmit_back_to_top = function() {
 		var progressPath = document.querySelector('.pbmit-progress-wrap path');
+		if(!progressPath){
+			console.log("Progress Path Not Found")
+			return 
+		}
 		var pathLength = progressPath.getTotalLength();
 		progressPath.style.transition = progressPath.style.WebkitTransition = 'none';
 		progressPath.style.strokeDasharray = pathLength + ' ' + pathLength;
