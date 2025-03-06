@@ -20,7 +20,7 @@ function Section ({ tag, title1, title2, content } : SectionProps) {
                     <div className="pbmit-ihbox-btn">
                         <a href="#">
                             <span>
-                            Read More
+                            Read More(s)
                                 <svg className="pbmit-svg-arrow" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="19" height="19" viewBox="0 0 19 19" xmlSpace="preserve">
                                     <line x1="1" y1="18" x2="17.8" y2="1.2"></line>
                                     <line x1="1.2" y1="1" x2="18" y2="1"></line>
