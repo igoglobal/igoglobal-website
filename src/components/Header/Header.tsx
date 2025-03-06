@@ -13,12 +13,16 @@ function Header () {
             && location.pathname !== `/blogs/4567` && location.pathname !== `/blogs/8634` && location.pathname !== `/blogs/5678`;
             // && location.pathname !== `/blogs/${blogId}`;
     
-    
+    const islandingPage = location.pathname === '/landing-page/wealth-conference'
 
     return (
         <header className="site-header header-style-1">
-            <Nav></Nav>
-            {isNotHomePage && <Slider></Slider>}
+            {!islandingPage && (
+                <>
+                    <Nav></Nav>
+                    {isNotHomePage && <Slider></Slider>}
+                </>
+            )}
         </header>
     )
 }
