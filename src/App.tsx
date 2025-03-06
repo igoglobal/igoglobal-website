@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import { Helmet } from 'react-helmet';
 
 import Home from './pages/Home/Home';
@@ -21,6 +21,8 @@ import ChatDialog from './components/Dialogs/Messaging/Chat';
 
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import LandingPage from './pages/LandingPage/LandingPage';
+import NotifDialog from './components/LandingPage/Notification';
 
 function App() {
 
@@ -29,6 +31,28 @@ function App() {
       once: true,
     });
   }, [])
+
+  interface NotifstateProps {
+    isOpen: boolean;
+    title: string;
+    msg: string;
+    code: 'success' | 'error' | 'notif' | 'warning'
+  }
+  const [notif, setNotif] = useState<NotifstateProps>({
+    isOpen: false, title: '', msg: '', code: 'success'
+  });
+
+  const showNotif = (
+    title: string, msg: string, code: 'success' | 'error' | 'notif' | 'warning'
+  ) => {
+    setNotif({isOpen: true, title, msg, code})
+  }
+
+  // code: 'success' | 'error' | 'notif' | 'warning'
+  const hideNotif = () => {
+    setNotif((prev) => ({...prev, isOpen: false}))
+  }
+
 
   return (
     // Masonry view >> grid wide => gallery page 
@@ -48,6 +72,7 @@ function App() {
               <Route path={'/blogs/:blogId'} element={<SingleBlog />} />
 
               <Route path='/chat' element={<Chat/>}/>
+              <Route path='/landing-page/wealth-conference' element={<LandingPage showNotif={showNotif}/>}/>
 
               <Route path='/iroko' element={<Product/>}/>
               <Route path='/pure-virgin' element={<Product/>}/>        
@@ -58,6 +83,12 @@ function App() {
           </Routes>
 
           <Footer/>
+
+          <NotifDialog 
+            title={notif.title} msg={notif.msg}
+            code={notif.code} isOpen={notif.isOpen}
+            hideNotif={hideNotif}
+          />
 
           <Helmet>
             {/* <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.1/aos.css" /> */}
@@ -76,11 +107,11 @@ function App() {
             {/* counter animations */}
             {/* <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-numinate/2.0.1/jquery.numinate.min.js"></script> */}
             
-            <script src="./assets/js/scripts.js"></script>
-            {/* <script src="./assets/js/swiper.min.js"></script> */}
-            {/* <script src="./assets/js/cursor.js"></script> */}
-            {/* <script src='./assets/js/magnetic.js'></script> */}
-            {/* <script src='./assets/js/gsap-animation.ts'></script> */}
+            <script src="/assets/js/scripts.js"></script>
+            {/* <script src="/assets/js/swiper.min.js"></script>
+            <script src="/assets/js/cursor.js"></script>
+            <script src='/assets/js/magnetic.js'></script>
+            <script src='/assets/js/gsap-animation.ts'></script> */}
           </Helmet>
     </Router>
   );
