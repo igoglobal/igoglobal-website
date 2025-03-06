@@ -4,7 +4,7 @@
       "./node_modules/@types",
       "./types"
     ],
-    "types" : ["jquery"],
+    "types" : ["jquery", "node", "react", "react-dom"],
     /* Visit https://aka.ms/tsconfig to read more about this file */
 
     /* Language and Environment */

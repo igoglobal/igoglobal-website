@@ -615,8 +615,3 @@ if (jQuery('#myChart').length > 0) {
 		}
 		
 	});
-
-
-
-
-	
