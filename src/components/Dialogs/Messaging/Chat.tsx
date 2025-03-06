@@ -6,7 +6,9 @@ import { Button } from 'primereact/button';
 
 function ChatDialog() {
     const location = useLocation();
-    const islandingPage = location.pathname === '/landing-page/wealth-conference'
+    const islandingPage = location.pathname === '/landing-page/wealth-conference' 
+    || location.pathname === '/' || location.pathname === '/blogs'
+    || location.pathname === '/services';
 
     const [visibility, setVisibility] = useState(true); // Show the dialog on page load
     const navigate = useNavigate();
