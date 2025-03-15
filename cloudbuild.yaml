@@ -33,7 +33,7 @@ steps:
     args:
       [
         "push",
-        "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website",
+        "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website:$COMMIT_SHA",
       ]
   # Deploy image to Cloud Run
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
@@ -44,7 +44,7 @@ steps:
         "deploy",
         "$_SERVICE_NAME",
         "--image",
-        "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website",
+        "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website:$COMMIT_SHA",
         "--region",
         "europe-west1",
         "--platform",
@@ -54,6 +54,6 @@ steps:
         "80",
       ]
 images:
-  - "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website"
+  - "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website:$COMMIT_SHA"
 options:
     logging: CLOUD_LOGGING_ONLY
