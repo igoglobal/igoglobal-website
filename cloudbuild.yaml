@@ -5,7 +5,7 @@ steps:
       [
         "build",
         "-t",
-        "europe-west1-docker.pkg.dev/$PROJECT_ID/igoglobal-website-test/website",
+        "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website:$COMMIT_SHA",
         ".",
         "--build-arg",
         "REACT_APP_FIREBASE_API_KEY=${_REACT_APP_FIREBASE_API_KEY}",
@@ -33,7 +33,7 @@ steps:
     args:
       [
         "push",
-        "europe-west1-docker.pkg.dev/$PROJECT_ID/igoglobal-website-test/website",
+        "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website",
       ]
   # Deploy image to Cloud Run
   - name: "gcr.io/google.com/cloudsdktool/cloud-sdk"
@@ -42,9 +42,9 @@ steps:
       [
         "run",
         "deploy",
-        "igoglobal-website-test",
+        "$_SERVICE_NAME",
         "--image",
-        "europe-west1-docker.pkg.dev/$PROJECT_ID/igoglobal-website-test/website",
+        "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website",
         "--region",
         "europe-west1",
         "--platform",
@@ -54,6 +54,6 @@ steps:
         "80",
       ]
 images:
-  - "europe-west1-docker.pkg.dev/$PROJECT_ID/igoglobal-website-test/website"
+  - "$_AR_HOSTNAME/$PROJECT_ID/$_SERVICE_NAME/website"
 options:
     logging: CLOUD_LOGGING_ONLY
